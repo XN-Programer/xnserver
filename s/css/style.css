@@ -1,0 +1,63 @@
+.weui-navbar__item .logoXyfw{background: url(../images/logo_school.svg);}
+.weui-navbar__item .logoAboutUs{background: url(../images/logo_aboutus.svg);}
+
+/* .main{
+	background:url(../images/bgpic.jpg);
+	background-size: cover;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.5);
+} */
+.header{
+    border: 1px solid #f0f0f0;
+    background: #272932;
+    padding-right: 30px;
+    color: #fff;
+    font-family: "微软雅黑";
+    height: 30px;
+}
+.header a{
+    color: #fff;
+}
+.header a:hover{
+    color: #86EE60;
+}
+.header ul li{
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+
+#logopic {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    /*background: transparent url("../images/logo.svg") no-repeat scroll 0% 0% / auto 900%;*/
+    background: url(../images/logo.png);
+}
+
+#introduce h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#introduce p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    /*color: #059;	*/
+    color: #0062B1;
+}
+
+
