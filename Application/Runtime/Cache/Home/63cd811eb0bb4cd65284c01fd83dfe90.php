@@ -3,13 +3,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">-->
     <title>校园服务</title>
     <!-- 引入 WeUI -->
     <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/Public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
+    <?php if(!empty($data)): ?><link rel="stylesheet" type="text/css" href="/Public/Css/bootstrap.min.css" /><?php endif; ?>
+
 </head>
 <body>
+
+<!-- header end -->
+
 <div class="container">
     <div class="page__hd">
         <div id="logopic"></div>
@@ -18,12 +23,11 @@
             <p>湘农青年&nbsp;校园服务</p>
         </div>
     </div>
-<!-- header end -->
 
     <div class="page__bd">
         <div class="page grid" style="margin-top: 30px;">
             <div class="weui-grids">
-                <a href="/Public/function/cjcx.php?data=cj" class="weui-grid">
+                <a href="<?php echo U('Home/Score/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/cj.png" alt="">
                     </div>
@@ -79,7 +83,6 @@
                 </a>
             </div>
         </div>
-        <!-- <div class="gywm_toggle" style="width: 500px; height: 500px; border: 1px solid #f00; display: none;"></div> -->
     </div>
 
 <!-- header start -->

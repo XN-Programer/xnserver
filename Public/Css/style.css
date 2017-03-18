@@ -1,0 +1,43 @@
+#logopic {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    background: url(../images/logo.png);
+}
+
+#introduce h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#introduce p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    /*color: #059;	*/
+    color: #0062B1;
+}
+
+.page__bd .bd__header h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #09BB07;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+

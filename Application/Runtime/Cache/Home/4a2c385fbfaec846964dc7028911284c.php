@@ -1,37 +1,60 @@
-<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!-- header start -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/Public/Css/weui.min.css">
-    <title>Document</title>
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">-->
+    <title>校园服务</title>
+    <!-- 引入 WeUI -->
+    <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
+    <?php if(!empty($data)): ?><link rel="stylesheet" type="text/css" href="/Public/Css/bootstrap.min.css" /><?php endif; ?>
+
 </head>
 <body>
-    <div class="container">
-        <div class="page__hd">
-            <div class="header">
-                <h1 class="page__title">湘农青年</h1>
-            </div>
+
+<!-- header end -->
+<div class="container">
+    <div class="page__hd">
+        <div id="logopic"></div>
+        <div id="introduce">
+            <h3>湖南农业大学欢迎你</h3>
+            <p>湘农青年&nbsp;校园服务</p>
         </div>
+    </div>
+
+
         <div class="page__bd">
+            <form action="<?php echo U('Home/Login/handle');?>" id="login_form" method="post">
                 <div class="weui-cell">
                     <div class="weui-cell__hd"><label class="weui-label">学号</label></div>
                     <div class="weui-cell__bd">
-                        <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入学号">
+                        <input name="userid" class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入学号">
                     </div>
                 </div>
                 <div class="weui-cell">
                     <div class="weui-cell__hd"><label class="weui-label">密码</label></div>
                     <div class="weui-cell__bd">
-                        <input class="weui-input" type="password" pattern="[0-9]*" placeholder="请输入密码">
+                        <input name="passwd" class="weui-input" type="password" pattern="[0-9]*" placeholder="请输入密码">
                     </div>
                 </div>
-                <div class="page__bd_spacing">
-                        <a href="javascript:;" class="weui-btn weui-btn_plain-primary">按钮</a>
+                <div class="page__bd_spacing" style="margin-top: 50px">
+                    <a href="#" onclick="document:login_form.submit()" class="weui-btn weui-btn_primary" style="
+    width: 95%;
+">登录</a>
                 </div>
+            </form>
         </div>
-    </div>
+
+
+<!-- header start -->
+<div class="weui-footer weui-footer_fixed-bottom">
+    <p class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">WeUI首页</a>
+    </p>
+    <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+</div>
+</div>
 </body>
 </html>
+<!-- header end -->
