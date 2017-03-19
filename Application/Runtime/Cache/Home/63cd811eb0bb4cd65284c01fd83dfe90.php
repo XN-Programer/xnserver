@@ -3,12 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>校园服务</title>
     <!-- 引入 WeUI -->
     <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
     <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
-    <?php if(!empty($data)): ?><link rel="stylesheet" type="text/css" href="/Public/Css/bootstrap.min.css" /><?php endif; ?>
+    <script type="text/javascript" src="/Public/Js/jquery-3.1.1.min.js"></script>
+    <?php if(!empty($xn)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
 
 </head>
 <body>
