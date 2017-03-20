@@ -35,7 +35,7 @@
                     </div>
                     <p class="weui-grid__label">成绩查询</p>
                 </a>
-                <a href="javascript:;" class="weui-grid">
+                <a href="<?php echo U('Home/CSchedule/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/kb.png" alt="">
                     </div>

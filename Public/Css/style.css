@@ -40,4 +40,8 @@
     margin-top: 5px;
 }
 
+.container .page__bd .weui-flex .placeholder {
+    text-align: center;
+}
+
 

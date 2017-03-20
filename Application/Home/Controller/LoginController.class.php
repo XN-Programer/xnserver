@@ -42,9 +42,9 @@ Class LoginController extends Controller {
             echo $data->Userinfo->Name;
             session('LoginStatus', $loginStatus);  //获取登陆状态 1=》成功   0=》失败  此处必定为1
             session('UserCardCode', $data->Userinfo->CardCode); //获取卡号17位（此处非学号号，ex:20141114095332308）
-            session('UserName', $data->Userinfo->Name); //获取姓名（并没有什么卵用）
-            session('UserSex', $data->Userinfo->Sex);   //获取性别（同上）
-            session('UserType', $data->Userinfo->Type); //获取账号类型 （。。。）
+            session('UserName', $data->Userinfo->Name); //获取姓名
+            session('UserSex', $data->Userinfo->Sex);   //获取性别
+            session('UserType', $data->Userinfo->Type); //获取账号类型
             session('UserGrade', $data->Userinfo->Grade);   //获取年级
             $this->redirect('Home/Index/Index');
         }

@@ -80,7 +80,7 @@
 <script type="text/javascript">
         var handUrl = '<?php echo U("Home/Score/handle", '', '');?>';
 </script>
-<script type="text/javascript" src="/Public/Js/scorefunction.js"></script>
+<script type="text/javascript" src="/Public/Js/function/scorefunction.js"></script>
 <!-- header start -->
  <div class="weui-footer weui-footer_fixed-bottom">
     <p class="weui-footer__links">
