@@ -25,7 +25,7 @@ $(function () {
 					html += '<tr><td>课程名</td><td>成绩</td><td>课程性质</td><td>学分</td></tr>'
 					// $('#showCj').html(html);
 					$(data).each(function(i, v) {
-						console.log($(this).KCMC);
+						// console.log($(this).KCMC);
 						html += '<tr><td>'+ v.KCMC + '</td><td class="am-active">'+ v.CJ + '</td><td>'+ v.KCXZ + '</td><td class="am-active">'+ v.XF +'</td></tr>'
 					});
 					$('#showCj').html(html);

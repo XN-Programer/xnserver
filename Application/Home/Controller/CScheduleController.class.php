@@ -28,8 +28,8 @@ Class CScheduleController extends CommonController  {
         $begindate = $Term['begindate'];
         $enddate = $Term['enddate'];
         $Term = $Term['class_year'].$Term['class_term'];
-        dump($begindate);
-        echo $enddate;
+//        dump($begindate);
+        $this->display();
 
     }
 

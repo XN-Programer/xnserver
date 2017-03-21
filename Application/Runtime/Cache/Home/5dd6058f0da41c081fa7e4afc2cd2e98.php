@@ -37,6 +37,10 @@
         </div>
     </div>
 
+    <table class="am-table am-table-bordered am-table-striped am-table-centered" id="show_kb" style="width: 100%"></table>
+
+
+
 
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
     <script type="text/javascript" src="/Public/JS/function/personkb.js"></script>

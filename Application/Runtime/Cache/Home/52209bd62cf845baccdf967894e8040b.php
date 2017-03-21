@@ -44,9 +44,7 @@
             </a>
     </div>
 
-    <script type="text/javascript">
-        var handUrl = '<?php echo U("Home/CSscedule/personkb", '', '');?>';
-    </script>
+
     <script type="text/javascript" src="/Public/Js/schedule.js"></script>
 <!-- footer start -->
 <div class="weui-footer weui-footer_fixed-bottom">
