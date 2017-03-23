@@ -2,18 +2,175 @@
  * Created by liwei on 2017/3/20.
  */
 $(function () {
-    $(document).ready(function () {
-        var html = '<caption>选修课表</caption>';
-            html += '<tr><td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td></tr>';
-            html += '<tr><td>第一大节</td><td colspan="6">test</td></tr>';
-            html += '<tr><td>第二大节</td><td colspan="6">test</td></tr>';
-            html += '<tr><td>第三大节</td><td colspan="6">test</td></tr>';
-            html += '<tr><td>第四大节</td><td colspan="6">test</td></tr>';
-            html += '<tr><td>第五大节</td><td colspan="6">test</td></tr>';
-            html += '<tr><td>第六大节</td><td colspan="6">test</td></tr>';
-        $('#show_kb').html(html);
-    });
 
+            /*
+             * 说明：
+             * 一周的起始计算方式不同国家有所不同，很多其他国家将周日作为一周的开始
+             * 本代码使用中国习惯，将周一作为每周的开始
+             * 特此说明
+             */
+    function TodayInfo(start) {
+        var WEEKLEN = 7, // 一周7天为常量
+            WEEKDAYS = ["日", "一", "二", "三", "四", "五", "六"],
+            weekInfo = {"week": null, "day": null}, // 初始化返回信息，默认第null周，星期null
+            oneDay = 24 * 60 * 60 * 1000, // 一天的毫秒时长
+            weekLeave, // 开学当天所在周剩余天数
+            weekStart, // 开学当天start是星期几
+            today, // 今天
+            dateDiff, // 今天与开学当天日期差
+            sDate; //开学之日，日期对象
+        var rDateStr = /\d{4}[\/-]\d{1,2}[\/-]\d{1,2}/g; // 简单的日期格式校验：2013/12/19
+        if (!rDateStr.test(start)) {
+            alert("请使用合法的开学日期！！！");
+            return weekInfo;
+        }
+        sDate = new Date(start.replace("-", "/"));
+        weekStart = sDate.getDay();
+        weekStart = weekStart === 0 ? 7 : weekStart; // JS中周日的索引为0，这里转换为7，方便计算
+
+        weekLeave = WEEKLEN - weekStart;
+        today = new Date();
+        weekInfo.day = WEEKDAYS[today.getDay()];
+        today = new Date(today.getFullYear() + "/" + (today.getMonth() + 1) + "/" + today.getDate());
+        dateDiff = today - sDate;
+        if (dateDiff < 0) {
+            alert("别开玩笑了，你还没开学呢！！！");
+            return weekInfo;
+        }
+        dateDiff = parseInt(dateDiff / oneDay);
+        weekInfo.week = Math.ceil((dateDiff - weekLeave) / WEEKLEN) + 1;
+        return weekInfo;
+    }
+
+            var startYear = mydate['begindate'].toString().substr(0, 4);
+            var startMonth = mydate['begindate'].toString().substr(4, 2);
+            var startDay = mydate['begindate'].toString().substr(6, 2);
+            var startDate = startYear + '-' + startMonth + '-' + startDay;
+            var td = TodayInfo(startDate);
+
+            $('.placeholder a').text('第' + td.week + '周');
+            showkb(td.week);
+
+    function showkb(week) {
+        $.post(handUrl, { week: week},
+            function (data) {
+                if(data == null) {
+                    alert('没有查询到课程');
+                } else {
+                    console.log(data);
+                    $('.sunkb > *').remove();
+                    $('.monkb > *').remove();
+                    $('.tuekb > *').remove();
+                    $('.wedkb > *').remove();
+                    $('.thukb > *').remove();
+                    $('.frikb > *').remove();
+                    $('.satkb > *').remove();
+                    $(data).each(function (i, v) {
+                       if(v.section == '星期一') {
+                       var html = '<hr>';
+                           html += '<div class="am-g"  id="jiec1">';
+                           html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                           html += '<div class="am-u-sm-9">';
+                           html += '<div class="coursename">' + v.CourseName + '</div>';
+                           html += '<hr>';
+                           html += '<div class="address">' + v.JiaoS + '</div>';
+                           html += '</div>';
+                           html += '</div>';
+                           html += '<hr >';
+                           html += '</div>';
+                           console.log(v.JieC);
+                           $('.monkb').append(html);
+                       }
+                        if(v.section == '星期二') {
+                            var html = '<hr>';
+                            html += '<div class="am-g"  id="jiec1">';
+                            html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                            html += '<div class="am-u-sm-9">';
+                            html += '<div class="coursename">' + v.CourseName + '</div>';
+                            html += '<hr>';
+                            html += '<div class="address">' + v.JiaoS + '</div>';
+                            html += '</div>';
+                            html += '</div>';
+                            html += '<hr >';
+                            console.log(v.JieC);
+                            $('.tuekb').append(html);
+                        }
+                        if(v.section == '星期三') {
+                            var html = '<hr>';
+                            html += '<div class="am-g"  id="jiec1">';
+                            html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                            html += '<div class="am-u-sm-9">';
+                            html += '<div class="coursename">' + v.CourseName + '</div>';
+                            html += '<hr>';
+                            html += '<div class="address">' + v.JiaoS + '</div>';
+                            html += '</div>';
+                            html += '</div>';
+                            html += '<hr >';
+                            console.log(v.JieC);
+                            $('.wedkb').append(html);
+                        }
+                        if(v.section == '星期四') {
+                            var html = '<hr>';
+                            html += '<div class="am-g"  id="jiec1">';
+                            html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                            html += '<div class="am-u-sm-9">';
+                            html += '<div class="coursename">' + v.CourseName + '</div>';
+                            html += '<hr>';
+                            html += '<div class="address">' + v.JiaoS + '</div>';
+                            html += '</div>';
+                            html += '</div>';
+                            html += '<hr >';
+                            console.log(v.JieC);
+                            $('.thukb').append(html);
+                        }
+                        if(v.section == '星期五') {
+                            var html = '<hr>';
+                            html += '<div class="am-g"  id="jiec1">';
+                            html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                            html += '<div class="am-u-sm-9">';
+                            html += '<div class="coursename">' + v.CourseName + '</div>';
+                            html += '<hr>';
+                            html += '<div class="address">' + v.JiaoS + '</div>';
+                            html += '</div>';
+                            html += '</div>';
+                            html += '<hr >';
+                            console.log(v.JieC);
+                            $('.frikb').append(html);
+                        }
+                        if(v.section == '星期六') {
+                            var html = '<hr>';
+                            html += '<div class="am-g"  id="jiec1">';
+                            html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                            html += '<div class="am-u-sm-9">';
+                            html += '<div class="coursename">' + v.CourseName + '</div>';
+                            html += '<hr>';
+                            html += '<div class="address">' + v.JiaoS + '</div>';
+                            html += '</div>';
+                            html += '</div>';
+                            html += '<hr >';
+                            console.log(v.JieC);
+                            $('.satkb').append(html);
+                        }
+                        if(v.section == '星期日') {
+                            var html = '<hr>';
+                            html += '<div class="am-g"  id="jiec1">';
+                            html += '<div class="am-u-sm-3">第' + v.JieC + '</div>';
+                            html += '<div class="am-u-sm-9">';
+                            html += '<div class="coursename">' + v.CourseName + '</div>';
+                            html += '<hr>';
+                            html += '<div class="address">' + v.JiaoS + '</div>';
+                            html += '</div>';
+                            html += '</div>';
+                            html += '<hr >';
+                            console.log(v.JieC);
+                            $('.sunkb').append(html);
+                        }
+                    });
+                }
+
+            }, 'json');
+    }
+    
     $('#showPicker').on('click', function () {
         weui.picker([
             {
@@ -103,17 +260,16 @@ $(function () {
             }
         ], {
             className: 'custom-classname',
-            defaultValue: [3],
+            defaultValue: [td.week - 1],
             onChange: function (result) {
-//                    console.log(result)
+                $('.placeholder a').text(result[0].label);
             },
             onConfirm: function (result) {
-//                    console.log(result)
+                $('.placeholder a').text(result[0].label);
+                showkb(result[0].value+1);
             },
             id: 'singleLinePicker'
         });
     });
-
-
 
 });

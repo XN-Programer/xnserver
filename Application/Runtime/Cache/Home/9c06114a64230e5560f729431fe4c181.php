@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
     <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
     <script type="text/javascript" src="/Public/Js/jquery-3.1.1.min.js"></script>
-    <?php if(!empty($xn)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
+    <?php if(!empty($xn) || !empty($kb)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
 
 </head>
 <body>

@@ -8,9 +8,9 @@
     <title>校园服务</title>
     <!-- 引入 WeUI -->
     <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
     <script type="text/javascript" src="/Public/Js/jquery-3.1.1.min.js"></script>
-    <?php if(!empty($xn)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
+    <?php if(!empty($xn) || !empty($kb)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
+    <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
 
 </head>
 <body>
@@ -35,7 +35,7 @@
                     </div>
                     <p class="weui-grid__label">成绩查询</p>
                 </a>
-                <a href="javascript:;" class="weui-grid">
+                <a href="<?php echo U('Home/CSchedule/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/kb.png" alt="">
                     </div>

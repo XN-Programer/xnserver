@@ -44,4 +44,10 @@
     text-align: center;
 }
 
+.am-container {max-width: 100%;}
+.am-g .am-u-sm-3 {
+    line-height: 80px;
+    text-align:center;
+}
+
 

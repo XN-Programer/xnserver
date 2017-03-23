@@ -8,15 +8,21 @@
     <title>校园服务</title>
     <!-- 引入 WeUI -->
     <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
     <script type="text/javascript" src="/Public/Js/jquery-3.1.1.min.js"></script>
-    <?php if(!empty($xn)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
+    <?php if(!empty($xn) || !empty($kb)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
+    <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
 
 </head>
 <body>
 
 <!-- header end -->
-
+<script type="text/javascript">
+    var handUrl = '<?php echo U("Home/CSchedule/handle", '', '');?>';
+    var mydate = [];
+    mydate['begindate'] = <?php echo ($kb["begindate"]); ?>;
+    mydate['enddate'] = <?php echo ($kb["enddate"]); ?>;
+    mydate['nowdate'] = '<?php echo ($kb["month"]); ?>';
+</script>
 <div class="container">
     <div class="page__hd">
         <div id="logopic"></div>
@@ -27,21 +33,74 @@
     </div>
     <div class="page__bd">
         <div class="weui-flex">
-            <div class="weui-flex__item"><div class="placeholder">姓名</div></div>
-            <div class="weui-flex__item"><div class="placeholder">月份</div></div>
+            <div class="weui-flex__item"><div class="placeholder"><?php echo ($kb["name"]); ?></div></div>
+            <div class="weui-flex__item"><div class="placeholder"><?php echo ($kb["month"]); ?></div></div>
             <div class="weui-flex__item">
                 <div class="placeholder">
-                    <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default" id="showPicker">第几周</a>
+                    <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_default" id="showPicker"></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <table class="am-table am-table-bordered am-table-striped am-table-centered" id="show_kb" style="width: 100%"></table>
+    <div class="am-tabs" id="doc-my-tabs">
+        <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+            <li class="am-active"><a href="">日</a></li>
+            <li><a href="">一</a></li>
+            <li><a href="">二</a></li>
+            <li><a href="">三</a></li>
+            <li><a href="">四</a></li>
+            <li><a href="">五</a></li>
+            <li><a href="">六</a></li>
+        </ul>
+        <div class="am-tabs-bd">
+            <div class="am-tab-panel am-active">
+                <div class="am-container sunkb">
+
+                </div>
+            </div>
+            <div class="am-tab-panel">
+                <div class="am-container monkb">
+
+                </div>
+            </div>
+            <div class="am-tab-panel">
+                <div class="am-container tuekb">
+
+                </div>
+            </div>
+            <div class="am-tab-panel">
+                <div class="am-container wedkb">
+
+                </div>
+            </div>
+            <div class="am-tab-panel">
+                <div class="am-container thukb">
+
+                </div>
+            </div>
+            <div class="am-tab-panel">
+                <div class="am-container frikb">
+
+                </div>
+            </div>
+            <div class="am-tab-panel">
+                <div class="am-container satkb">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <script>
+        $(function() {
+            $('#doc-my-tabs').tabs();
+        })
+    </script>
 
 
+    <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
     <script type="text/javascript" src="/Public/JS/function/personkb.js"></script>
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
