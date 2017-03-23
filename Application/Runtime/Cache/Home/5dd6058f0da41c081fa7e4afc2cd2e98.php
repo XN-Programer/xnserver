@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>校园服务</title>
+    <?php if(!empty($xn) || !empty($kb) || !empty($data)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
     <!-- 引入 WeUI -->
     <link rel="stylesheet" href="/Public/Css/weui.min.css"/>
     <script type="text/javascript" src="/Public/Js/jquery-3.1.1.min.js"></script>
-    <?php if(!empty($xn) || !empty($kb)): ?><link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css" /><?php endif; ?>
+
     <link rel="stylesheet" type="text/css" href="/Public/Css/style.css" />
 
 </head>
@@ -17,11 +18,11 @@
 
 <!-- header end -->
 <script type="text/javascript">
-    var handUrl = '<?php echo U("Home/CSchedule/handle", '', '');?>';
-    var mydate = [];
-    mydate['begindate'] = <?php echo ($kb["begindate"]); ?>;
-    mydate['enddate'] = <?php echo ($kb["enddate"]); ?>;
-    mydate['nowdate'] = '<?php echo ($kb["month"]); ?>';
+    var handUrl = '<?php echo U("Home/CSchedule/handlepersonkb", '', '');?>';
+    var mydata = [];
+    mydata['begindate'] = <?php echo ($kb["begindate"]); ?>;
+    mydata['enddate'] = <?php echo ($kb["enddate"]); ?>;
+    mydata['nowdate'] = '<?php echo ($kb["month"]); ?>';
 </script>
 <div class="container">
     <div class="page__hd">

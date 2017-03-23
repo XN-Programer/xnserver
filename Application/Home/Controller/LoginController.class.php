@@ -46,6 +46,12 @@ Class LoginController extends Controller {
             session('UserSex', $data->Userinfo->Sex);   //获取性别
             session('UserType', $data->Userinfo->Type); //获取账号类型
             session('UserGrade', $data->Userinfo->Grade);   //获取年级
+            session('CollegeName', $data->Userinfo->CollegeName);
+            session('ClassesName', $data->Userinfo->ClassesName); //班级
+            session('Major', $data->Userinfo->Major);   //专业代码
+            session('MajorName', $data->Userinfo->MajorName);   //专业名
+
+
             $this->redirect('Home/Index/Index');
         }
 

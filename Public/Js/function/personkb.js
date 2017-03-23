@@ -42,9 +42,9 @@ $(function () {
         return weekInfo;
     }
 
-            var startYear = mydate['begindate'].toString().substr(0, 4);
-            var startMonth = mydate['begindate'].toString().substr(4, 2);
-            var startDay = mydate['begindate'].toString().substr(6, 2);
+            var startYear = mydata['begindate'].toString().substr(0, 4);
+            var startMonth = mydata['begindate'].toString().substr(4, 2);
+            var startDay = mydata['begindate'].toString().substr(6, 2);
             var startDate = startYear + '-' + startMonth + '-' + startDay;
             var td = TodayInfo(startDate);
 
@@ -57,7 +57,6 @@ $(function () {
                 if(data == null) {
                     alert('没有查询到课程');
                 } else {
-                    console.log(data);
                     $('.sunkb > *').remove();
                     $('.monkb > *').remove();
                     $('.tuekb > *').remove();
@@ -78,7 +77,6 @@ $(function () {
                            html += '</div>';
                            html += '<hr >';
                            html += '</div>';
-                           console.log(v.JieC);
                            $('.monkb').append(html);
                        }
                         if(v.section == '星期二') {
@@ -92,7 +90,6 @@ $(function () {
                             html += '</div>';
                             html += '</div>';
                             html += '<hr >';
-                            console.log(v.JieC);
                             $('.tuekb').append(html);
                         }
                         if(v.section == '星期三') {
@@ -106,7 +103,6 @@ $(function () {
                             html += '</div>';
                             html += '</div>';
                             html += '<hr >';
-                            console.log(v.JieC);
                             $('.wedkb').append(html);
                         }
                         if(v.section == '星期四') {
@@ -120,7 +116,6 @@ $(function () {
                             html += '</div>';
                             html += '</div>';
                             html += '<hr >';
-                            console.log(v.JieC);
                             $('.thukb').append(html);
                         }
                         if(v.section == '星期五') {
@@ -134,7 +129,6 @@ $(function () {
                             html += '</div>';
                             html += '</div>';
                             html += '<hr >';
-                            console.log(v.JieC);
                             $('.frikb').append(html);
                         }
                         if(v.section == '星期六') {
@@ -148,7 +142,6 @@ $(function () {
                             html += '</div>';
                             html += '</div>';
                             html += '<hr >';
-                            console.log(v.JieC);
                             $('.satkb').append(html);
                         }
                         if(v.section == '星期日') {
@@ -162,7 +155,6 @@ $(function () {
                             html += '</div>';
                             html += '</div>';
                             html += '<hr >';
-                            console.log(v.JieC);
                             $('.sunkb').append(html);
                         }
                     });

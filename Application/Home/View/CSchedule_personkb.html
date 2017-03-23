@@ -2,11 +2,11 @@
 <include file="Public/Header" />
 <!-- header end -->
 <script type="text/javascript">
-    var handUrl = '{:U("Home/CSchedule/handle", '', '')}';
-    var mydate = [];
-    mydate['begindate'] = {$kb.begindate};
-    mydate['enddate'] = {$kb.enddate};
-    mydate['nowdate'] = '{$kb.month}';
+    var handUrl = '{:U("Home/CSchedule/handlepersonkb", '', '')}';
+    var mydata = [];
+    mydata['begindate'] = {$kb.begindate};
+    mydata['enddate'] = {$kb.enddate};
+    mydata['nowdate'] = '{$kb.month}';
 </script>
 <div class="container">
     <div class="page__hd">
