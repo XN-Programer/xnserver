@@ -1,0 +1,2072 @@
+[ 2017-03-26T22:22:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.143444s ]
+
+[ 2017-03-26T22:22:49+08:00 ] 127.0.0.1 /Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+
+[ 2017-03-26T22:23:12+08:00 ] 127.0.0.1 /Home/Login/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-03-26T22:23:12+08:00 ] 127.0.0.1 /Home/Index/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-03-26T22:23:14+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-03-26T22:23:15+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:23:15+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:23:15+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:23:15+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:23:17+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:27:32+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+
+[ 2017-03-26T22:27:35+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:27:35+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:27:36+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:27:36+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:27:39+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:31:30+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+
+[ 2017-03-26T22:31:31+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:31:31+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:31:31+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:31:31+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:31:33+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:32:02+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-03-26T22:32:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:06+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:32:52+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+
+[ 2017-03-26T22:32:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:32:56+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:33:10+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-03-26T22:33:11+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:11+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:11+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:11+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:14+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:33:31+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005519s ]
+
+[ 2017-03-26T22:33:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:33:36+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:33:40+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-03-26T22:34:02+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+
+[ 2017-03-26T22:34:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:34:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:34:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:34:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:34:05+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:34:46+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-03-26T22:35:49+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-03-26T22:35:50+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:35:50+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:35:50+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000337s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:35:50+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:35:52+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:39:17+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-03-26T22:39:18+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:39:19+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:39:19+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:39:19+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:39:21+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:40:52+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+
+[ 2017-03-26T22:40:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:40:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:40:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:40:53+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:40:58+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:45:39+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-03-26T22:45:40+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:45:40+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:45:40+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:45:40+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:45:42+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:47:04+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-03-26T22:47:05+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:06+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:06+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:06+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:07+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:47:15+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:47:26+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-03-26T22:47:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:47:29+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:49:18+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058747s ]
+
+[ 2017-03-26T22:49:20+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:49:20+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:49:20+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:49:20+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:49:22+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:51:51+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-03-26T22:51:52+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:51:52+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:51:52+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:51:52+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:51:54+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:52:56+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-03-26T22:52:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:52:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:52:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:52:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:52:58+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:53:23+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2017-03-26T22:53:24+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:24+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:24+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:24+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:25+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:53:55+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-03-26T22:53:56+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:53:58+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T22:54:03+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-03-26T22:54:04+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:54:04+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:54:04+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:54:04+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T22:54:17+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:11:24+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-03-26T23:11:49+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:11:49+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-03-26T23:11:56+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:11:59+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:11:59+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+
+[ 2017-03-26T23:12:00+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:02+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:03+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:06+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:12+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:13+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:12:29+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:12:37+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-03-26T23:12:43+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:47+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:12:49+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:01+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:02+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:32+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+ERR: 请求发生错误：Operation timed out after 30000 milliseconds with 0 bytes received
+
+[ 2017-03-26T23:13:32+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-03-26T23:13:32+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005110s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015678s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:34+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:35+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002737s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:35+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:38+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:40+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:41+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:42+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:13:47+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:13:48+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:13:48+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:13:50+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:15:26+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:15:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:15:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:15:29+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:22:54+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+
+[ 2017-03-26T23:22:56+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:22:56+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:22:56+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:22:57+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:22:59+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:23:05+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:23:10+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002133s ]
+
+[ 2017-03-26T23:23:16+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:23:17+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:23:18+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:23:20+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:24:56+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:25:00+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:25:47+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+
+[ 2017-03-26T23:25:48+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:25:48+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:25:48+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:25:49+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:25:50+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:25:57+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:26:33+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-03-26T23:26:34+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:26:34+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:26:34+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:26:34+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:26:39+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:26:44+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:32:43+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-03-26T23:32:44+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:32:44+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:32:45+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:32:45+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:32:47+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:33:30+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-03-26T23:33:32+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:33:32+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:33:32+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000520s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:33:33+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:33:35+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:34:04+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-03-26T23:34:05+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:34:05+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:34:05+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003025s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:34:06+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:34:07+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:35:25+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002356s ]
+
+[ 2017-03-26T23:35:26+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:35:26+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:35:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:35:27+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:35:28+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:36:11+08:00 ] 127.0.0.1 /Home/Electricity/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-03-26T23:36:12+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:36:12+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:36:13+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:36:13+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:36:14+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:36:19+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:36:23+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:38:48+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:38:48+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:38:48+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:38:51+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:38:51+08:00 ] 127.0.0.1 /Home/Electricity/getApart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 34 行.
+
+[ 2017-03-26T23:38:56+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:38:56+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:38:57+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:38:57+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:05+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:05+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:06+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:06+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:09+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:09+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:10+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:10+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:15+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:16+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:16+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
+[ 2017-03-26T23:39:17+08:00 ] 127.0.0.1 /Home/Electricity/EnergyQuery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [8] DOMDocument::loadXML(): xmlns: URI MUI is not absolute in Entity, line: 2 F:\Lw\PHPDemo\xyfw\Application\Home\Controller\ElectricityController.class.php 第 62 行.
+
