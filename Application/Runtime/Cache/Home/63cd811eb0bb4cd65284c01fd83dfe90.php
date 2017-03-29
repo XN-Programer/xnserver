@@ -42,11 +42,11 @@
                     </div>
                     <p class="weui-grid__label">课表查询</p>
                 </a>
-                <a href="javascript:;" class="weui-grid">
+                <a href="<?php echo U('Home/Electricity/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/df.png" alt="">
                     </div>
-                    <p class="weui-grid__label">电费查询</p>
+                    <p class="weui-grid__label">用电查询</p>
                 </a>
                 <a href="javascript:;" class="weui-grid">
                     <div class="weui-grid__icon">
@@ -88,7 +88,7 @@
         </div>
     </div>
 
-<!-- header start -->
+<!-- footer start -->
 <div class="weui-footer weui-footer_fixed-bottom">
     <p class="weui-footer__links">
         <a href="javascript:home();" class="weui-footer__link">WeUI首页</a>
@@ -98,4 +98,4 @@
 </div>
 </body>
 </html>
-<!-- header end -->
+<!-- footer end -->
