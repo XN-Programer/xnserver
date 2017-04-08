@@ -52,7 +52,7 @@ Class LoginController extends Controller {
             session('MajorName', $data->Userinfo->MajorName);   //专业名
 
 
-            $this->redirect('Home/Index/Index');
+            $this->redirect('Home/Index/index');
         }
 
 

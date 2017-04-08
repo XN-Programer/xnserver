@@ -103,7 +103,7 @@
 
     <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
-    <script type="text/javascript" src="/Public/JS/function/personkb.js"></script>
+    <script type="text/javascript" src="/Public/Js/function/personkb.js"></script>
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
 <!-- footer start -->
 <div class="weui-footer weui-footer_fixed-bottom">

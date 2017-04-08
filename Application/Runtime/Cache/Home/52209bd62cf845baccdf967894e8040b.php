@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="weui-cells"">
+    <div class="weui-cells">
             <a class="weui-cell weui-cell_access per_sent-btn" href="<?php echo U('Home/CSchedule/personkb');?>">
                 <div class="weui-cell__hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
                 <div class="weui-cell__bd">
@@ -65,17 +65,19 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+
     <script type="text/javascript" src="/Public/Js/function/schedule.js"></script>
 
 <!-- footer start -->
+
 <div class="weui-footer weui-footer_fixed-bottom">
     <p class="weui-footer__links">
-        <a href="javascript:home();" class="weui-footer__link">WeUI首页</a>
+        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
     </p>
     <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
 </div>
 </div>
+<script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
 </body>
 </html>
 <!-- footer end -->

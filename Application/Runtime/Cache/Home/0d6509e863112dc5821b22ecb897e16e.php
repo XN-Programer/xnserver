@@ -28,7 +28,7 @@
     </div>
 
     <div class="page__bd">
-        <div class="page grid" style="margin-top: 30px;">
+        <div class="page grid">
             <div class="weui-grids">
                 <a href="<?php echo U('Home/Score/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
@@ -48,11 +48,11 @@
                     </div>
                     <p class="weui-grid__label">用电查询</p>
                 </a>
-                <a href="javascript:;" class="weui-grid">
+                <a href="<?php echo U('Home/BookRetrieval/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/ts.png" alt="">
                     </div>
-                    <p class="weui-grid__label">图书检索</p>
+                    <p class="weui-grid__label">图书馆</p>
                 </a>
                 <a href="javascript:;" class="weui-grid">
                     <div class="weui-grid__icon">
@@ -84,18 +84,21 @@
                     </div>
                     <p class="weui-grid__label">Grid</p>
                 </a>
+
             </div>
         </div>
     </div>
 
 <!-- footer start -->
+
 <div class="weui-footer weui-footer_fixed-bottom">
     <p class="weui-footer__links">
-        <a href="javascript:home();" class="weui-footer__link">WeUI首页</a>
+        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
     </p>
     <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
 </div>
 </div>
+<script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
 </body>
 </html>
 <!-- footer end -->

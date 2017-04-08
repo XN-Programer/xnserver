@@ -22,7 +22,7 @@
     var dfUrl = '<?php echo U("Home/Electricity/EnergyQuery", '', '');?>';
     var QSUrl = '<?php echo U("Home/Electricity/QuerySurplus", '', '');?>';
 </script>
-<script type="text/javascript" src="/Public/JS/function/electricity.js"></script>
+<script type="text/javascript" src="/Public/Js/function/electricity.js"></script>
 <div class="container">
     <div class="page__hd">
         <div id="logopic"></div>
@@ -127,3 +127,17 @@
 
     <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
+
+    <!-- footer start -->
+    
+<div class="weui-footer weui-footer_fixed-bottom">
+    <p class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
+    </p>
+    <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+</div>
+</div>
+<script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+</body>
+</html>
+    <!-- footer end -->

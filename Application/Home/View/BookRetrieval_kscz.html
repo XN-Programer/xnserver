@@ -1,0 +1,72 @@
+<!-- header start -->
+<include file="Public/Header" />
+<!-- header end -->
+<script type="text/javascript">
+    var wzurl = '{:U("Home/BookRetrieval/wz", '', '')}';
+</script>
+<div class="container">
+    <div class="page__hd">
+        <div id="logopic"></div>
+        <div id="introduce">
+            <h3>湖南农业大学欢迎你</h3>
+            <p>湘农青年&nbsp;校园服务</p>
+        </div>
+    </div>
+    <br>
+    <div class="page__bd">
+        <div class="bd__header">
+            <h3>图书检索</h3>
+        </div>
+
+        <p>我们为您找到了{$count}条记录</p>
+    </div>
+    <br>
+
+    <foreach name='books' item='v'>
+        <div class="weui-form-preview" id="{$v.RowNo}">
+            <div class="weui-form-preview__bd">
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">书名</label>
+                    <span class="weui-form-preview__value">{$v.Title}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">作者</label>
+                    <span class="weui-form-preview__value">{$v.Author}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">出版社</label>
+                    <span class="weui-form-preview__value">{$v.Publish}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">ISBN</label>
+                    <span class="weui-form-preview__value">{$v.Isbn}</span>
+                </div>
+            </div>
+            <div class="weui-form-preview__ft">
+                <button type="submit" name="{$v.CtrlRd}" value="{$v.Title}" class="weui-form-preview__btn weui-form-preview__btn_primary wz" href="javascript:" data-am-modal="{target: '#my-popup'}">查看详情</button>
+            </div>
+        </div>
+        <br>
+    </foreach>
+
+    <div class="am-popup" id="my-popup">
+        <div class="am-popup-inner">
+            <div class="am-popup-hd">
+                <h4 class="am-popup-title" id="bookname"></h4>
+                <span data-am-modal-close
+                      class="am-close">&times;</span>
+            </div>
+            <div class="am-popup-bd" id="booklist">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="__PUBLIC__/Js/function/booksearch.js"></script>
+
+    <!-- footer start -->
+    <include file="Public/Footer" />
+    <!-- footer end -->

@@ -43,8 +43,9 @@ function TodayInfo(start) {
 var startYear = mydata['begindate'].toString().substr(0, 4);
 var startMonth = mydata['begindate'].toString().substr(4, 2);
 var startDay = mydata['begindate'].toString().substr(6, 2);
-var startDate = startYear + '-' + startMonth + '-' + startDay;
+var startDate = startYear + '/' + startMonth + '/' + startDay;
 var td = TodayInfo(startDate);
+
 
 var classname = mydata['classname'];
 $('.placeholder a').text('第' + td.week + '周');
@@ -260,7 +261,7 @@ $(function () {
             },
             onConfirm: function (result) {
                 $('.placeholder a').text(result[0].label);
-                // showkb(result[0].value+1);
+                showkb(result[0].value+1, classname);
             },
             id: 'singleLinePicker'
         });

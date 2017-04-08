@@ -40,4 +40,5 @@ function http($url, $params, $method = 'GET', $header = array(), $multi = false)
     if($error) throw new Exception('请求发生错误：' . $error);
     return  $data;
 }
+
 ?>
