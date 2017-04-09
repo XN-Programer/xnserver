@@ -3,7 +3,6 @@
  */
 (function() {
     $(function() {
-
         $(".wz").click(function () {
             var value = $(this).attr('name');
             var bookname = $(this).attr('value');
@@ -17,10 +16,8 @@
 
 function wz(CtrlRd) {
     var CtrlRd = CtrlRd;
-    console.log(CtrlRd);
     $.post(wzurl, { CtrlRd: CtrlRd },
         function (data) {
-            console.log(data);
             html = '';
             if(data.errorname != "成功") {
                 alert('我们暂时没有发现关于这本书的其它信息！');
@@ -47,8 +44,6 @@ function wz(CtrlRd) {
                 });
 
             }
-
-
             $('#booklist').html(html);
         });
 
