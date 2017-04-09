@@ -2,7 +2,7 @@
 <include file="Public/Header" />
 <!-- header end -->
 <script type="text/javascript">
-    var wzurl = '{:U("Home/BookRetrieval/wz", '', '')}';
+    var wzurl = '{:U("Home/BookRetrieval/wz")}';
 </script>
 <div class="container">
     <div class="page__hd">
@@ -19,35 +19,37 @@
         </div>
 
         <p>我们为您找到了{$count}条记录</p>
+
+        <foreach name='books' item='v'>
+            <div class="weui-form-preview" id="{$v.RowNo}">
+                <div class="weui-form-preview__bd">
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">书名</label>
+                        <span class="weui-form-preview__value">{$v.Title}</span>
+                    </div>
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">作者</label>
+                        <span class="weui-form-preview__value">{$v.Author}</span>
+                    </div>
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">出版社</label>
+                        <span class="weui-form-preview__value">{$v.Publish}</span>
+                    </div>
+                    <div class="weui-form-preview__item">
+                        <label class="weui-form-preview__label">ISBN</label>
+                        <span class="weui-form-preview__value">{$v.Isbn}</span>
+                    </div>
+                </div>
+                <div class="weui-form-preview__ft">
+                    <button type="submit" name="{$v.CtrlRd}" value="{$v.Title}" class="weui-form-preview__btn weui-form-preview__btn_primary wz" href="javascript:" data-am-modal="{target: '#my-popup'}">查看详情</button>
+                </div>
+            </div>
+            <br>
+        </foreach>
     </div>
     <br>
 
-    <foreach name='books' item='v'>
-        <div class="weui-form-preview" id="{$v.RowNo}">
-            <div class="weui-form-preview__bd">
-                <div class="weui-form-preview__item">
-                    <label class="weui-form-preview__label">书名</label>
-                    <span class="weui-form-preview__value">{$v.Title}</span>
-                </div>
-                <div class="weui-form-preview__item">
-                    <label class="weui-form-preview__label">作者</label>
-                    <span class="weui-form-preview__value">{$v.Author}</span>
-                </div>
-                <div class="weui-form-preview__item">
-                    <label class="weui-form-preview__label">出版社</label>
-                    <span class="weui-form-preview__value">{$v.Publish}</span>
-                </div>
-                <div class="weui-form-preview__item">
-                    <label class="weui-form-preview__label">ISBN</label>
-                    <span class="weui-form-preview__value">{$v.Isbn}</span>
-                </div>
-            </div>
-            <div class="weui-form-preview__ft">
-                <button type="submit" name="{$v.CtrlRd}" value="{$v.Title}" class="weui-form-preview__btn weui-form-preview__btn_primary wz" href="javascript:" data-am-modal="{target: '#my-popup'}">查看详情</button>
-            </div>
-        </div>
-        <br>
-    </foreach>
+
 
     <div class="am-popup" id="my-popup">
         <div class="am-popup-inner">

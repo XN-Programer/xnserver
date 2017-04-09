@@ -54,11 +54,11 @@
                     </div>
                     <p class="weui-grid__label">图书馆</p>
                 </a>
-                <a href="javascript:;" class="weui-grid">
+                <a href="<?php echo U('Home/Card/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/ykt.png" alt="">
                     </div>
-                    <p class="weui-grid__label">一卡通挂失</p>
+                    <p class="weui-grid__label">一卡通</p>
                 </a>
                 <a href="javascript:;" class="weui-grid">
                     <div class="weui-grid__icon">
