@@ -3,6 +3,7 @@
 <!-- Header End -->
 <script type="text/javascript">
     var sentUrl = '{:U("Home/Card/showlist")}';
+    var CardId = '{$UserId}';
 </script>
 <div class="container">
     <div class="page__hd">
@@ -52,6 +53,26 @@
             <br>
             <a href="javascript:;" id="sendform" class="weui-btn weui-btn_primary">查询</a>
         </form>
+        <br>
+
+        <a href="javascript:;" class="weui-btn weui-btn_warn" id="gs">挂失</a>
+        <br>
+        <br>
+
+        <div class="am-modal am-modal-prompt" tabindex="-1" id="my-prompt">
+            <div class="am-modal-dialog">
+                <div class="am-modal-hd">Amaze UI</div>
+                <div class="am-modal-bd">
+                    来来来，吐槽点啥吧
+                    <input type="text" class="am-modal-prompt-input" name="CardId" value="" id="CardId" disabled>
+                    <input type="password" class="am-modal-prompt-input" name="Cardpw" placeholder="请输入密码">
+                </div>
+                <div class="am-modal-footer">
+                    <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                    <span class="am-modal-btn" data-am-modal-confirm>提交</span>
+                </div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript">
         (function () {
@@ -73,6 +94,7 @@
         })();
 
     </script>
+    <script type="text/javascript" src="__PUBLIC__/Js/function/yikatong_gs.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/weui.min.js"></script>
 <!-- Footer start -->
     <include file="Public/Footer" />

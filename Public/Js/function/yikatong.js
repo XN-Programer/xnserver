@@ -19,7 +19,6 @@
     });
     $('.last_page').on('click', function () {
         pageindex = $('.am-pagination-last').val()-1;
-        console.log(pageindex);
         getData(pageindex);
     });
 })();
@@ -27,7 +26,7 @@
 function getData(pageindex) {
     $.post(yktUrl, {bdate: bdate, edate: edate, Code: Code, pageindex: pageindex},
         function (data) {
-            console.log(data);
+            // console.log(data);
             if (data['status'] == 1) {
                 // console.log(data['RList']['pageDTO']);
                 // console.log(data['RList']['webTrjnDTO']);

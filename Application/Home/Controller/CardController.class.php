@@ -33,6 +33,9 @@ class CardController extends CommonController
         } else {
             $this->assign('data', $data['Msg']);
         }
+
+        $this->assign('data', 1);
+        $this->assign('UserId', $UserId);
         $this->display();
     }
 
@@ -83,6 +86,10 @@ class CardController extends CommonController
 
 //        $this->assign('page', $data['RList']['pageDTO']);
 //        $this->assign('list', $data['RList']['webTrjnDTO']);
+    }
+
+    public function guashi () {
+
     }
 
 }
