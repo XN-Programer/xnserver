@@ -31,8 +31,11 @@
             <p>湘农青年&nbsp;校园服务</p>
         </div>
     </div>
-
-    <div class="page__hd">
+    <br>
+    <div class="page__bd">
+        <div class="bd__header">
+            <h3>电费查询</h3>
+        </div>
         <div class="weui-cells">
             <a class="weui-cell weui-cell_access" href="javascript:;" id="showDatePicker">
                 <div class="weui-cell__bd" id="mydate">
@@ -74,10 +77,11 @@
                 </div>
             </div>
         </div>
+        <div class="weui-btn-area">
+            <a class="weui-btn weui-btn_primary sent-btn" href="javascript:" id="showDf" onclick="showDf()">确定</a>
+        </div>
     </div>
-    <div class="weui-btn-area">
-        <a class="weui-btn weui-btn_primary sent-btn" href="javascript:" id="showDf" onclick="showDf()">确定</a>
-    </div>
+
 
     <div class="am-popup" id="my-popup">
         <div class="am-popup-inner">
@@ -131,10 +135,11 @@
     <!-- footer start -->
     
 <div class="weui-footer weui-footer_fixed-bottom">
-    <p class="weui-footer__links">
-        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
-    </p>
-    <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+    <span class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">湘农青年网</a>
+    </span>
+    <br>
+    <span class="weui-footer__text">Copyright © 2008-2017 xnqn.com</span>
 </div>
 </div>
 <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>

@@ -18,7 +18,7 @@
 
 <!-- header end -->
 
-<div>
+<div class="container">
     <div class="page__hd">
         <div id="logopic"></div>
         <div id="introduce">
@@ -26,25 +26,24 @@
             <p>湘农青年&nbsp;校园服务</p>
         </div>
     </div>
-
+    <br>
+    <br>
     <div class="page__bd">
         <div class="bd__header">
-            <h3>学生成绩查询</h3>
+            <h3>成绩查询</h3>
         </div>
-    </div>
-
-    <form action="">
-        <div class="weui-cell weui-cell_select weui-cell_select-after">
-            <div class="weui-cell__hd">
-                <label for="" class="weui-label">学年</label>
+        <form action="">
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">学年</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" id="xn" name="xn">
+                        <?php if(is_array($xn)): foreach($xn as $k=>$v): ?><option value="<?php echo ($k); ?>"><?php echo ($v); ?></option><?php endforeach; endif; ?>
+                    </select>
+                </div>
             </div>
-            <div class="weui-cell__bd">
-                <select class="weui-select" id="xn" name="xn">
-                    <?php if(is_array($xn)): foreach($xn as $k=>$v): ?><option value="<?php echo ($k); ?>"><?php echo ($v); ?></option><?php endforeach; endif; ?>
-                </select>
-            </div>
-        </div>
-        <div class="weui-cell weui-cell_select weui-cell_select-after">
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
                 <div class="weui-cell__hd">
                     <label for="" class="weui-label">学期</label>
                 </div>
@@ -55,12 +54,15 @@
                         <option value="2">秋季</option>
                     </select>
                 </div>
-        </div>
+            </div>
 
-        <div class="weui-btn-area">
-            <a class="weui-btn weui-btn_primary sent-btn" href="javascript:" >确定</a>
-        </div>
-    </form>
+            <div class="weui-btn-area">
+                <a class="weui-btn weui-btn_primary sent-btn" href="javascript:" >确定</a>
+            </div>
+        </form>
+    </div>
+
+
     <div class="am-popup" id="my-popup">
       <div class="am-popup-inner">
         <div class="am-popup-hd">
@@ -85,10 +87,11 @@
 <!-- header start -->
  
 <div class="weui-footer weui-footer_fixed-bottom">
-    <p class="weui-footer__links">
-        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
-    </p>
-    <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+    <span class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">湘农青年网</a>
+    </span>
+    <br>
+    <span class="weui-footer__text">Copyright © 2008-2017 xnqn.com</span>
 </div>
 </div>
 <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>

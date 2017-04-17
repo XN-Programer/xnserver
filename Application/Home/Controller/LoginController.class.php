@@ -40,6 +40,7 @@ Class LoginController extends Controller {
             echo "');window.history.go(-1);</script>";
         } else {
             echo $data->Userinfo->Name;
+            session('UserId', $userid); //获取账号
             session('LoginStatus', $loginStatus);  //获取登陆状态 1=》成功   0=》失败  此处必定为1
             session('UserCardCode', $data->Userinfo->CardCode); //获取卡号17位（此处非学号号，ex:20141114095332308）
             session('UserName', $data->Userinfo->Name); //获取姓名

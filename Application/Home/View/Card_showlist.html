@@ -1,0 +1,70 @@
+<!-- Header start -->
+<include file="Public/Header" />
+<!-- Footer start -->
+
+<script type="text/javascript">
+    var bdate = '{$bdate}';
+    var edate = '{$edate}';
+    var Code = '{$Code}';
+    var pageindex = 0;
+    var pageCount = '{$pages}';
+    var yktUrl = '{:U("Home/Card/getData", '', '')}';
+</script>
+<div class="container">
+    <div class="page__hd">
+        <div id="logopic"></div>
+        <div id="introduce">
+            <h3>湖南农业大学欢迎你</h3>
+            <p>湘农青年&nbsp;校园服务</p>
+        </div>
+    </div>
+    <br>
+    <div class="page__bd">
+        <div class="bd__header">
+            <h3>一卡通流水</h3>
+        </div>
+        <div class="bd__main"></div>
+        <!--<div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+            <span class="weui-loadmore__tips"></span>
+        </div>-->
+        <br>
+        <br>
+    </div>
+
+    <!--<div class="weui-loadmore">
+        <i class="weui-loading"></i>
+        <span class="weui-loadmore__tips">正在加载</span>
+    </div>
+    <div class="weui-loadmore weui-loadmore_line">
+        <span class="weui-loadmore__tips">暂无数据</span>
+    </div>
+    <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+        <span class="weui-loadmore__tips"></span>
+    </div>-->
+    <br>
+
+    <div class="page__bottom">
+        <ul data-am-widget="pagination" class="am-pagination am-pagination-default">
+
+            <li class="am-pagination-first ">
+                <a href="http://www.baidu.com" class="index_page">首页</a>
+            </li>
+
+            <li class="am-pagination-prev ">
+                <a href="#" class="prev_page">上一页</a>
+            </li>
+
+            <li class="am-pagination-next ">
+                <a href="#" class="next_page">下一页</a>
+            </li>
+
+            <li class="am-pagination-last ">
+                <a href="#" class="last_page">末页</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <!--<script type="text/javascript" src="__PUBLIC__/Js/weui.min.js"></script>-->
+    <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/function/yikatong.js"></script>

@@ -26,7 +26,9 @@
             <p>湘农青年&nbsp;校园服务</p>
         </div>
     </div>
-
+    <br>
+    <br>
+    <br>
     <div class="page__bd">
         <div class="page grid">
             <div class="weui-grids">
@@ -92,10 +94,11 @@
 <!-- footer start -->
 
 <div class="weui-footer weui-footer_fixed-bottom">
-    <p class="weui-footer__links">
-        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
-    </p>
-    <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+    <span class="weui-footer__links">
+        <a href="javascript:home();" class="weui-footer__link">湘农青年网</a>
+    </span>
+    <br>
+    <span class="weui-footer__text">Copyright © 2008-2017 xnqn.com</span>
 </div>
 </div>
 <script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>

@@ -42,56 +42,58 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="am-tabs" id="doc-my-tabs">
-        <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
-            <li class="am-active"><a href="">日</a></li>
-            <li><a href="">一</a></li>
-            <li><a href="">二</a></li>
-            <li><a href="">三</a></li>
-            <li><a href="">四</a></li>
-            <li><a href="">五</a></li>
-            <li><a href="">六</a></li>
-        </ul>
-        <div class="am-tabs-bd">
-            <div class="am-tab-panel am-active">
-                <div class="am-container sunkb">
+        <div class="am-tabs" id="doc-my-tabs">
+            <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+                <li class="am-active"><a href="">日</a></li>
+                <li><a href="">一</a></li>
+                <li><a href="">二</a></li>
+                <li><a href="">三</a></li>
+                <li><a href="">四</a></li>
+                <li><a href="">五</a></li>
+                <li><a href="">六</a></li>
+            </ul>
+            <div class="am-tabs-bd">
+                <div class="am-tab-panel am-active">
+                    <div class="am-container sunkb">
 
+                    </div>
                 </div>
-            </div>
-            <div class="am-tab-panel">
-                <div class="am-container monkb">
+                <div class="am-tab-panel">
+                    <div class="am-container monkb">
 
+                    </div>
                 </div>
-            </div>
-            <div class="am-tab-panel">
-                <div class="am-container tuekb">
+                <div class="am-tab-panel">
+                    <div class="am-container tuekb">
 
+                    </div>
                 </div>
-            </div>
-            <div class="am-tab-panel">
-                <div class="am-container wedkb">
+                <div class="am-tab-panel">
+                    <div class="am-container wedkb">
 
+                    </div>
                 </div>
-            </div>
-            <div class="am-tab-panel">
-                <div class="am-container thukb">
+                <div class="am-tab-panel">
+                    <div class="am-container thukb">
 
+                    </div>
                 </div>
-            </div>
-            <div class="am-tab-panel">
-                <div class="am-container frikb">
+                <div class="am-tab-panel">
+                    <div class="am-container frikb">
 
+                    </div>
                 </div>
-            </div>
-            <div class="am-tab-panel">
-                <div class="am-container satkb">
+                <div class="am-tab-panel">
+                    <div class="am-container satkb">
 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
     <script>
@@ -106,13 +108,15 @@
     <script type="text/javascript" src="/Public/Js/function/personkb.js"></script>
     <script type="text/javascript" src="/Public/Js/weui.min.js"></script>
 <!-- footer start -->
+
 <div class="weui-footer weui-footer_fixed-bottom">
     <p class="weui-footer__links">
-        <a href="javascript:home();" class="weui-footer__link">WeUI首页</a>
+        <a href="javascript:home();" class="weui-footer__link">湘农青年</a>
     </p>
     <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
 </div>
 </div>
+<script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
 </body>
 </html>
 <!-- footer end -->

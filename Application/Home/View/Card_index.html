@@ -1,7 +1,9 @@
 <!-- Header start -->
 <include file="Public/Header" />
 <!-- Header End -->
-
+<script type="text/javascript">
+    var sentUrl = '{:U("Home/Card/showlist")}';
+</script>
 <div class="container">
     <div class="page__hd">
         <div id="logopic"></div>
@@ -11,43 +13,68 @@
         </div>
     </div>
     <br>
-    <div class="page__bd" style="background-color: #fff;">
-        <div class="weui-cell">
-            <div class="weui-cell__hd"><label class="weui-label">卡号</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入卡号">
-            </div>
+
+    <div class="page__bd">
+        <div class="bd__header">
+            <h3>一卡通流水</h3>
         </div>
-        <div class="weui-cell">
-            <div class="weui-cell__hd"><label for="" class="weui-label">开始日期</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="date" value="">
+        <form action='{:U("Home/Card/showlist")}' id="sent_form" method="post">
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">卡号</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input"  disabled="disabled" type="number" pattern="[0-9]*" placeholder="{$userid}">
+                </div>
             </div>
-        </div>
-        <div class="weui-cell">
-            <div class="weui-cell__hd"><label for="" class="weui-label">结束日期</label></div>
-            <div class="weui-cell__bd">
-                <input class="weui-input" type="date" value="">
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label for="" class="weui-label">开始日期</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="date" value="" name="bdate">
+                </div>
             </div>
-        </div>
-        <div class="weui-cell weui-cell_select weui-cell_select-after">
-            <div class="weui-cell__hd">
-                <label for="" class="weui-label">交易类型</label>
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label for="" class="weui-label">结束日期</label></div>
+                <div class="weui-cell__bd">
+                    <input class="weui-input" type="date" value="" name="edate">
+                </div>
             </div>
-            <div class="weui-cell__bd">
-                <select class="weui-select" name="select2">
-                    <option value="1">中国</option>
-                    <option value="2">美国</option>
-                    <option value="3">英国</option>
-                </select>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">交易类型</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="code">
+                        <foreach name="TranItem" item="v">
+                            <option value="{$v.trancode}">{$v.tranname}</option>
+                        </foreach>
+                    </select>
+                </div>
             </div>
-        </div>
-        <br>
-        <a href="javascript:;" class="weui-btn weui-btn_primary">查询</a>
+            <br>
+            <a href="javascript:;" id="sendform" class="weui-btn weui-btn_primary">查询</a>
+        </form>
     </div>
+    <script type="text/javascript">
+        (function () {
+            $('#sendform').on('click', function () {
+                checkform();
+            });
+            function checkform() {
+                if ( $('input[name=bdate]').val() == '' ) {
+                    alert("请选择开始日期");
+                    return;
+                }
+                if ( $('input[name=bdate]').val() == '' ) {
+                    alert("请选择结束日期");
+                    return;
+                }
 
+                $('#sent_form').submit();
+            }
+        })();
 
-
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/Js/weui.min.js"></script>
 <!-- Footer start -->
     <include file="Public/Footer" />
 <!-- Footer end -->
+
