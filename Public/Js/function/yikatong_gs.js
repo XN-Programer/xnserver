@@ -8,7 +8,11 @@
         $('#my-prompt').modal({
             relatedTarget: this,
             onConfirm: function (e) {
-                console.log(e);
+                var cardid = e['data'][0];
+                var cardpwd = e['data'][1];
+                $.post(gsUrl, {CardId: cardid, pwd: cardpwd}, function (data) {
+                    alert(data);
+                },'json');
             }
         });
     });

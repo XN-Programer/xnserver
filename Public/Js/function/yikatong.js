@@ -5,22 +5,37 @@
 (function () {
 
     $(document).ready(function() {
+        $('.bd__main > *').remove();
+        $('.jymx > *').remove();
         getData(pageindex);
     });
     $('.next_page').on('click', function () {
+        $('.bd__main > *').remove();
+        $('.jymx > *').remove();
         getData(++pageindex);
     });
     $('.prev_page').on('click', function () {
+        $('.bd__main > *').remove();
+        $('.jymx > *').remove();
         getData(--pageindex);
     });
     $('.index_page').on('click', function () {
         pageindex = 0;
+        $('.bd__main > *').remove();
+        $('.jymx > *').remove();
         getData(pageindex);
     });
     $('.last_page').on('click', function () {
+        $('.bd__main > *').remove();
+        $('.jymx > *').remove();
         pageindex = $('.am-pagination-last').val()-1;
         getData(pageindex);
     });
+
+    $('.showjymx').on('click', function () {
+        console.log(this);
+    })
+
 })();
 
 function getData(pageindex) {
@@ -49,6 +64,7 @@ function getData(pageindex) {
 
 
 function writeItem(webTrjnDTO) {
+    var jymx = '';
     var html = '';
     $(webTrjnDTO).each(function (i, v) {
         html += '<div class="weui-form-preview">';
@@ -69,18 +85,60 @@ function writeItem(webTrjnDTO) {
         html += '</div>';
         html += '</div>';
         html += '<div class="weui-form-preview__ft">';
-        html += '<a class="weui-form-preview__btn weui-form-preview__btn_primary" href="javascript:">交易明细</a>';
+        html += '<button type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary showjymx" value='+ i +' href="javascript:" data-am-modal="{target: \'#show' + i + '\'}">交易明细</button>';
         html += '</div>';
         html += '</div>';
         html += '<br>';
+
+        jymx += '<div class="am-popup" id="show'+ i +'">';
+        jymx += '<div class="am-popup-inner">';
+        jymx += '<div class="am-popup-hd">';
+        jymx += '<h4 class="am-popup-title">账号交易明细</h4>';
+        jymx += '<span data-am-modal-close class="am-close">&times;</span>';
+        jymx += '</div>';
+        jymx += '<div class="am-popup-bd">';
+        jymx += '<div class="weui-form-preview__bd">';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">日期</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.effectdate + '</span>';
+        jymx += '</div>';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">类型</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.tranname + '</span>';
+        jymx += '</div>';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">交易额</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.FTranAmt + '</span>';
+        jymx += '</div>';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">余额</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.FCardBalance + '</span>';
+        jymx += '</div>';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">电子账户名称</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.accname + '</span>';
+        jymx += '</div>';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">子系统名称</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.sysname1 + '</span>';
+        jymx += '</div>';
+        jymx += '<div class="weui-form-preview__item">';
+        jymx += '<label class="weui-form-preview__label">pos编号</label>';
+        jymx += '<span class="weui-form-preview__value">' + v.poscode + '</span>';
+        jymx += '</div>';
+        jymx += '</div>';
+        jymx += '</div>';
+        jymx += '</div>';
+        jymx += '</div>';
     });
+    // console.log(jymx);
+    $('.jymx').html(jymx);
     return html;
 }
 
 function checkpage (pagestatus) {
     if (pagestatus['firstPage'] == false) {
         var astatus = $('.page__bottom .index_page');
-            astatus.attr('href', '#');
             astatus.css('color', '#000');
     } else {
         var astatus = $('.page__bottom .index_page');
@@ -88,7 +146,6 @@ function checkpage (pagestatus) {
     }
     if (pagestatus['nextPage'] == false) {
         var astatus = $('.page__bottom .next_page');
-        astatus.attr('href', '#');
         astatus.css('color', '#000');
     } else {
         var astatus = $('.page__bottom .next_page');
@@ -96,7 +153,6 @@ function checkpage (pagestatus) {
     }
     if (pagestatus['proPage'] == false) {
         var astatus = $('.page__bottom .prev_page');
-        astatus.attr('href', '#');
         astatus.css('color', '#000');
     } else {
         var astatus = $('.page__bottom .prev_page');
@@ -105,7 +161,6 @@ function checkpage (pagestatus) {
 
     if (pagestatus['tailPage'] == false) {
         var astatus = $('.page__bottom .last_page');
-        astatus.attr('href', '#');
         astatus.css('color', '#000');
     } else {
         var astatus = $('.page__bottom .last_page');

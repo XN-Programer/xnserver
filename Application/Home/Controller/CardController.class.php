@@ -89,7 +89,27 @@ class CardController extends CommonController
     }
 
     public function guashi () {
-
+        $ak = C('ak');
+        $id = $_SESSION['UserCardCode'];
+        $CardId = I('CardId');
+        $pwd = I('pwd');
+        $param = array(
+            'ak'    =>  $ak,
+            'id'    =>  $id,
+            'CardId'=>  $CardId,
+            'pwd'   =>  $pwd
+        );
+        $url = C('url'). '/NDAppWebService.asmx/GetReport';
+        $result = http($url, $param, 'POST', array("Content-type: application/x-www-form-urlencoded"));
+        $dom = new \DOMDocument();
+        $dom->loadXML($result);
+        $json = $dom->getElementsByTagName('string')->item(0)->nodeValue;	//获取JSON字符串
+        $data=json_decode($json, true);
+        if($data['status']) {
+            $this->AjaxReturn($data['Msg']);
+        } else {
+            $this->AjaxReturn('');
+        }
     }
 
 }
