@@ -62,7 +62,7 @@
                     </div>
                     <p class="weui-grid__label">一卡通</p>
                 </a>
-                <a href="javascript:;" class="weui-grid">
+                <a href="<?php echo U('Home/UpdatePwd/index');?>" class="weui-grid">
                     <div class="weui-grid__icon">
                         <img src="/Public/images/mm.png" alt="">
                     </div>
