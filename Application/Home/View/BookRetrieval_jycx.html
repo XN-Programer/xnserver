@@ -1,0 +1,48 @@
+<!-- header start -->
+<include file="Public/Header" />
+<!-- header end -->
+
+<div class="container">
+    <div class="page__hd">
+        <div id="logopic"></div>
+        <div id="introduce">
+            <h3>湖南农业大学欢迎你</h3>
+            <p>湘农青年&nbsp;校园服务</p>
+        </div>
+    </div>
+    <br>
+    <div class="page__bd">
+        <div class="bd__header">
+            <h3>借阅查询</h3>
+        </div>
+        <foreach name="books" item="v">
+            <hr>
+            <div class="weui-form-preview__bd" style="background: #fff;">
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">商品</label>
+                    <span class="weui-form-preview__value">{$v.ShuName}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">借书日期</label>
+                    <span class="weui-form-preview__value">{$v.jsrq}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">还书日期</label>
+                    <span class="weui-form-preview__value">{$v.yhrq}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">状态</label>
+                    <span class="weui-form-preview__value">{$v.lx}</span>
+                </div>
+                <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label">预付金额</label>
+                    <span class="weui-form-preview__value">{$v.yfje}</span>
+                </div>
+            </div>
+            <hr>
+        </foreach>
+    </div>
+
+    <!-- Footer start -->
+    <include file="Public/Footer" />
+    <!-- Footer end -->
