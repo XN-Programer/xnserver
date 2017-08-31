@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: liwei
@@ -7,20 +8,29 @@
  */
 
 namespace Home\Controller;
+
 use Think\Controller;
 use Think\Exception;
 
-Class LoginController extends Controller {
-
-    Public function index() {
+Class LoginController extends Controller
+{
+    public function _before_index()
+    {
+        if (isset($_SESSION['LoginStatus'])) {
+            $this->redirect('Home/index/index');
+        }
+    }
+    Public function index()
+    {
         $this->display();
     }
 
-    Public function handle() {
+    Public function handle()
+    {
         $userid = $_POST["userid"];
         $passwd = $_POST["passwd"];
         $ak = C('ak');
-        $url = C('url'). '/NDAppWebService.asmx/WSMemberLogin';
+        $url = C('url') . '/NDAppWebService.asmx/WSMemberLogin';
         $param = array(
             'ak' => $ak,
             'id' => $userid,
@@ -30,15 +40,16 @@ Class LoginController extends Controller {
         $result = http($url, $param, 'POST', array("Content-Type: application/x-www-form-urlencoded"));
         $dom = new \DOMDocument();
         $dom->loadXML($result);
-        $json=$dom->getElementsByTagName('string')->item(0)->nodeValue;	//获取JSON字符串
-        $data=json_decode($json);
+        $json = $dom->getElementsByTagName('string')->item(0)->nodeValue;	//获取JSON字符串
+        $data = json_decode($json);
         $loginStatus = $data->status;
         if (!$loginStatus) {
             echo "<script>";
             echo "alert('";
-            echo "Password error or username error!" ;
+            echo "Password error or username error!";
             echo "');window.history.go(-1);</script>";
-        } else {
+        }
+        else {
             echo $data->Userinfo->Name;
             session('UserId', $userid); //获取账号
             session('LoginStatus', $loginStatus);  //获取登陆状态 1=》成功   0=》失败  此处必定为1
