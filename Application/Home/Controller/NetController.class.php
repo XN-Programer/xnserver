@@ -37,16 +37,6 @@ class NetController extends CommonController
         }
         $this->ajaxReturn($this->data);
     }
-    public function test(){
-        $User = D('User');
-        $where_u['stu_code'] = I('session.UserId');
-        $user_data = $User->relation(true)->scope('isPostNet')->where($where_u)->find();
-        dump($user_data);    
-        $Net_list = D('Net_list');
-        $where_n['u_id'] = 21;
-        $net_data = $Net_list->relation(true)->where($where_n)->find();
-        dump($net_data);
-    }
     // 获取故障单
     public function Get_NetList()
     {
@@ -54,7 +44,9 @@ class NetController extends CommonController
         $where_u['stu_code'] = I('session.UserId');
         $user_data = $User->scope('isPostNet')->where($where_u)->find();
         if (isset($user_data)) {// 该用户是否已报修
-            $Net_list = D('Net_list');
+            $Apartment = D('Apartment');
+            $user_data['apartment'] = $Apartment->exchange($user_data['apartment']);
+            $Net_list = D('Net_list');            
             $where_n['u_id'] = $user_data['id'];
             $net_data = $Net_list->scope('toUser')->where($where_n)->find();
             if (isset($net_data)) {// 是否查到故障单
@@ -130,7 +122,7 @@ class NetController extends CommonController
         $data = I('post.');
         $User = M('User');
         $User->getByStu_code(I('session.UserId'));
-        if (isset($User->id)) {//true则user表有数据
+        if (isset($User->id) && $User->data_state == 1) {//true则user表有数据
             $data['u_id'] = $User->id;
             $data['apartment'] = $User->apartment;
             $data['address'] = $User->address;

@@ -57,7 +57,7 @@ $(function () {
     });
     // 提交报修单
     var net_post_flag = false;
-    $("#upd-net").click(function () {
+    $("#create-net").click(function () {
         var yunys = $('#yunys').val();
         var yy_time = $('#yy_time').val();
         var ProText = $('#ProText').val();
@@ -98,6 +98,10 @@ $(function () {
                 net_post_flag = false;
             }
         });
+    });
+    //报修修改
+    $("#upd-net").click(function (){
+        $.toast("请拨打****修改", "cancel", function (toast) { });
     });
 });
 
@@ -184,6 +188,10 @@ function getApartment(url) {
 
 // 跳转函数
 function skip(tab) {
+    if(tab == "tab2"){
+        $("a[href='#tab2']").css("display","block");
+        $("a[href='#tab1']").css("display","none");
+    }
     $(".weui-bar__item--on").removeClass("weui-bar__item--on");
     $(".weui-tab__bd-item--active").removeClass("weui-tab__bd-item--active");
     $("a[href='#" + tab + "']").addClass("weui-bar__item--on");

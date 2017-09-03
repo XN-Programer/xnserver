@@ -12,6 +12,6 @@ return array(
     'DB_NAME' => 'xnserver',          // 数据库名
     'DB_USER' => 'root',      // 用户名
     //上线记得要用密码
-    'DB_PWD' => '',          // 上线要用密码
+    'DB_PWD' => '123456',          // 上线要用密码
     'DB_PORT' => '3306',        // 端口    
 );
