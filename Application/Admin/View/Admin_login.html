@@ -1,0 +1,33 @@
+<!-- header start -->
+<include file="Public/Header" />
+<!-- header end -->
+<form>
+    <label for=""><input type="text" id="username"></label>
+    <br />
+    <label for=""><input type="password" id="pw"></label>
+    <a href="javascript:;" id="login">登录</a>
+</form>
+<script>
+    $("#login").click(function () {
+        var username = $("#username").val();
+        var pw = $("#pw").val();
+        $.ajax({
+            type: "POST",
+            url: window.location.href,
+            data: {
+                username: username,
+                password: pw,
+            },
+            success: function (response) {
+                if (response.success == "Success") {
+                    window.location.href = '{:U("Admin/Net/index", '', '')}';
+                }
+            },
+        });
+    }
+    );
+
+</script>
+<!-- Footer start -->
+<include file="Public/Footer" />
+<!-- Footer end -->
