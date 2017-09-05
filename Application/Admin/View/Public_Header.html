@@ -9,41 +9,6 @@
     <title>寝室故障报修系统</title>
     <script src="__PUBLIC__/Js/Admin/jquery.min.js"></script>
     <script src="__PUBLIC__/Js/Admin/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $(".meun-item").click(function () {
-                $(".meun-item").removeClass("meun-item-active");
-                $(this).addClass("meun-item-active");
-                var itmeObj = $(".meun-item").find("img");
-                itmeObj.each(functionAdmin / () {
-                    var items = $(this).attr("src");
-                    items = items.replace("_grey.png", ".png");
-                    items = items.replace(".png", "_grey.png")
-                        $(this).attr("src", items);
-            });
-            var attrObj = $(this).find("img").attr("src");
-            ;
-            attrObj = attrObj.replace("_grey.png", ".png");
-            $(this).find("img").attr("src", attrObj);
-        });
-        $("#topAD").click(function () {
-            $("#topA").toggleClass(" glyphicon-triangle-right");
-            $("#topA").toggleClass(" glyphicon-triangle-bottom");
-        });
-        $("#topBD").click(function () {
-            $("#topB").toggleClass(" glyphicon-triangle-right");
-            $("#topB").toggleClass(" glyphicon-triangle-bottom");
-        });
-        $("#topCD").click(function () {
-            $("#topC").toggleClass(" glyphicon-triangle-right");
-            $("#topC").toggleClass(" glyphicon-triangle-bottom");
-        });
-        $(".toggle-btn").click(function () {
-            $("#leftMeun").toggleClass("show");
-            $("#rightContent").toggleClass("pd0px");
-        })
-            })
-    </script>
     <!--[if lt IE 9]>
   <script src="js/html5shiv.min.js"></script>
   <script src="js/respond.min.js"></script>
@@ -74,9 +39,11 @@
                         </div>
                         -->
             <div class="meun-title">报修系统</div>
-            <div class="meun-item meun-item-active" href="#sour" aria-controls="sour" role="tab" data-toggle="tab"><img src="__PUBLIC__/images/Admin/icon_source.png">故障列表</div>
-            <div class="meun-item" href="#user" aria-controls="user" role="tab" data-toggle="tab"><img src="__PUBLIC__/images/Admin/icon_user_grey.png">用户管理</div>
-            <div class="meun-item" href="#char" aria-controls="char" role="tab" data-toggle="tab"><img src="__PUBLIC__/images/Admin/icon_chara_grey.png">管理员管理</div>
+            <div class="meun-item"><a href="{:U("Admin/Net/index", '', '')}"><img src="__PUBLIC__/images/Admin/icon_source.png">故障列表</a></div>
+            <div class="meun-item"><a href="{:U("Admin/User/index", '', '')}"><img src="__PUBLIC__/images/Admin/icon_user_grey.png">用户管理</a></div>
+            <if condition="($_SESSION['AdminLevel'] eq 2)">
+                <div class="meun-item"><a href="{:U("Admin/Admin/index", '', '')}"><img src="__PUBLIC__/images/Admin/icon_chara_grey.png">管理员管理</a></div>
+            </if>            
             <!-- <div class="meun-item" href="#chan" aria-controls="chan" role="tab" data-toggle="tab"><img src="__PUBLIC__/images/Admin/icon_change_grey.png">修改密码</div> -->
         </div>
         <!-- 右侧具体内容栏目 -->
@@ -86,3 +53,27 @@
                     </a>
             <!-- Tab panes -->
             <div class="tab-content">
+
+                <script>
+                    // 左边栏显示在当前页
+                    $(function () {
+                        var curUrl = GetUrlRelativePath();
+                        $.each($("div[class='meun-item']"), function (index, value) {
+                            if ($(this).children().attr("href") == curUrl) {
+                                $(value).addClass("meun-item-active");
+                            }
+                        });
+                    });
+                    function GetUrlRelativePath() 　　{
+                        　　　　var url = document.location.toString();
+                        　　　　var arrUrl = url.split("//");
+
+                        　　　　var start = arrUrl[1].indexOf("/");
+                        　　　　var relUrl = arrUrl[1].substring(start);//stop省略，截取从start开始到结尾的所有字符
+
+                        　　　　if (relUrl.indexOf("?") != -1) {
+                            　　　　　　relUrl = relUrl.split("?")[0];
+                        　　　　}
+                        　　　　return relUrl;
+                    　　}
+                </script>
