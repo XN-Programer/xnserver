@@ -9,7 +9,7 @@ class CommonController extends Controller
     public $data = [
         'data' => [], 
         'success' => 'Success',
-        'message' => null,  // 参数错误;没有权限;没有此数据;等
+        // 'message' => null,  // 参数错误;没有权限;没有此数据;等
     ];    
     Public function _initialize()
     {

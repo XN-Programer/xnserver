@@ -1,0 +1,234 @@
+<!-- header start -->
+<include file="Public/Header" />
+<!-- header end -->
+<script type="text/javascript">
+    var create_net_list = '{:U("Admin/NetList/create")}';
+    var update_net_list = '{:U("Admin/NetList/update")}';
+    var delete_net_list = '{:U("Admin/NetList/delete")}';
+    var searchJson = '{$selectSearchResult}';
+    var wordJson = '{$wordSearchResult}';
+</script>
+<!-- 资源管理模块 -->
+<div role="tabpanel" class="tab-pane active" id="sour">
+    <div class="check-div form-inline">
+        <button id="create-net-list" class="btn btn-yellow btn-xs" data-toggle="modal" data-target="#changeSource">添加故障</button>
+        <form action="{:U("Admin/NetList/index")}" id="serach_two" method="GET" style="display:none"></form>
+        <select form="serach_two" name="apartment" class="form-control">
+                                    <option value="all">全部宿舍园区</option>
+                                    <foreach name='apartment' item='v' key='k'>
+                                        <option  value="{$v.id}">{$v.name}</option>
+                                    </foreach>                        
+        </select>
+        <select form="serach_two" name="data_state" class="form-control">
+                                    <option value="all">所有故障单状态</option>
+                                    <option value="1">未解决</option>
+                                    <option value="2">已解决</option>
+                                    <option value="3">恶意报修</option>
+        </select>
+        <button form="serach_two" class="btn btn-white btn-xs ">筛选</button>
+
+        <form action="{:U("Admin/NetList/index")}" id="search_word" method="GET" style="display:none"></form>
+        <input form="search_word" name="word" type="text" class=" form-control input-sm " placeholder="输入文字搜索">
+        <button form="search_word" class="btn btn-white btn-xs ">查 询 </button>
+    </div>
+
+    <div class="data-div">
+        <div class="row tableHeader">
+            <div class="col-xs-2">时间</div>
+            <div class="col-xs-2">园区</div>
+            <div class="col-xs-2">地址</div>
+            <div class="col-xs-2">预约时间</div>
+            <div class="col-xs-1">维修员</div>
+            <div class="col-xs-1">是否解决</div>
+            <div class="col-xs-2">操作</div>
+        </div>
+
+        <div class="tablebody">
+            <foreach name='net_list' item='v' key="k">
+                <div class="row">
+                    <div class="nId" style="display:none">{$v.id}</div>
+                    <div id="topAD" class="col-xs-2" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSystem" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        <span id="topA" class="glyphicon  glyphicon-triangle-right"></span> <span>{$v.create_at|date="y-m-d",###}</span>
+                    </div>
+                    <div class="apartment col-xs-2"><span style="display:none">{$v.apartment.id}</span>{$v.apartment.name}</div>
+                    <div class="address col-xs-2">{$v.address}</div>
+                    <div class="order_time col-xs-2">
+                        <span style="display:none">{$v['order_time']=='12:30--14:00'?1:2}</span>{$v.order_time}</div>
+                    <div class="admin col-xs-1"><span style="display:none">{$v.charge_id.id}</span>{$v.charge_id.nickname}</div>
+                    <div class="data_state col-xs-1">
+                        <span style="display:none">{$v.data_state}</span>
+                        <if condition="$v.data_state eq 1">否
+                            <elseif condition="$v.data_state eq 2" />是
+                            <else /> 恶意
+                        </if>
+                    </div>
+
+                    <div class="col-xs-2">
+                        <button class="finishe-net-list btn btn-default btn-xs">完成</button>
+                        <button class="update-net-list btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource">修改</button>
+                        <button class="delete-net-list btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource">删除</button>
+                    </div>
+                </div>
+
+                <!--系统管理折叠狂-->
+                <div id="collapseSystem" class="collapse out" aria-expanded="false">
+                    <!--用户管理折叠狂-->
+
+                    <div class="row">
+                        <div>姓名：<span id="aa" class="username">{$v.username}</span></div>
+                        <div>手机：<span class="phone">{$v.phone}</span></div>
+                        <div>故障类型：<span class="kind"></span></div>
+                        <div>故障描述：<span class="desc">{$v.desc}</span></div>
+                    </div>
+
+                </div>
+            </foreach>
+        </div>
+    </div>
+    <!--页码块-->
+    <footer class="footer">
+        <ul class="pagination">
+            <li>{$page}</li>
+            <li class="gray">共{$totalPages}页</li>
+            <!-- <li>
+                <i class="glyphicon glyphicon-menu-left">
+                                        </i>
+            </li>
+            <li>
+                <i class="glyphicon glyphicon-menu-right">
+                                        </i>
+            </li> -->
+        </ul>
+    </footer>
+
+    <!--修改资源弹出窗口-->
+    <div class="modal fade" id="changeSource" role="dialog" aria-labelledby="gridSystemModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel">故障单</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form class="form-horizontal">
+                            <div style="display:none"><input id="nId" type="text"></div>
+                            <div class="form-group ">
+                                <label for="sLink" class="col-xs-3 control-label">园区：</label>
+                                <div class="col-xs-5 ">
+                                    <select id="apartment" class="form-control">
+                                            <foreach name='apartment' item='v' key='k'>
+                                                <option value="{$v.id}">{$v.name}</option>
+                                            </foreach>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sOrd" class="col-xs-3 control-label">地址：</label>
+                                <div class="col-xs-8">
+                                    <input id="address" type="text" class="form-control input-sm duiqi" id="sOrd" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sLink" class="col-xs-3 control-label">姓名：</label>
+                                <div class="col-xs-8 ">
+                                    <input id="username" type="text" class="form-control input-sm duiqi" id="sLink" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sLink" class="col-xs-3 control-label">手机：</label>
+                                <div class="col-xs-8 ">
+                                    <input id="phone" type="text" class="form-control input-sm duiqi" id="sLink" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sLink" class="col-xs-3 control-label">预约时间：</label>
+                                <div class="col-xs-5 ">
+                                    <select id="order_time" class="form-control">
+                                        <option value=1>12:30--14:00</option>
+                                        <option value=2>18:30--20:00</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sLink" class="col-xs-3 control-label">维修员：</label>
+                                <div class="col-xs-5 ">
+                                    <select id="admin" class="form-control">
+                                        <foreach name='admin' item='v' key='k'>
+                                            <option value="{$v.id}">{$v.nickname}</option>
+                                        </foreach>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="exampleInput1" class="col-xs-3 control-label">故障类型：</label>
+                                <div class="col-xs-8">
+                                    <label class="control-label" for="anniu">
+                                                                <input type="radio" name="leixing" id="anniu"> 类型1</label>                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="control-label" for="meun">
+                                                                <input type="radio" name="leixing" id="meun"> 类型2</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="sLink" class="col-xs-3 control-label">故障描述：</label>
+                                <div class="col-xs-6 ">
+                                    <textarea id="desc" class="form-control input-sm duiqi"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInput1" class="col-xs-3 control-label">是否解决：</label>
+                                <div id="data_state" class="col-xs-8">
+                                    <label class="control-label" for="meun">
+                                    <input id="data_state1" type="radio" name="data_state"> 否</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="control-label" for="anniu">
+                                    <input id="data_state2" type="radio" name="data_state">是</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="control-label" for="meun">
+                                    <input id="data_state3" type="radio" name="data_state"> 恶意报修</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-xs btn-white" data-dismiss="modal">取 消</button>
+                    <button id="submit" type="button" class="btn btn-xs btn-green">保 存</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!--弹出删除资源警告窗口-->
+    <div class="modal fade" id="deleteSource" role="dialog" aria-labelledby="gridSystemModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel">提示</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        确定要删除该故障单吗？删除后不可恢复！
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-xs btn-white" data-dismiss="modal">取 消</button>
+                    <button id="delete" type="button" class="btn btn-xs btn-danger">删 除</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/Js/Admin/function/net_list.js"></script>
+
+<!-- Footer start -->
+<include file="Public/Footer" />
+<!-- Footer end -->

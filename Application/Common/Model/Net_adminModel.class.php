@@ -15,6 +15,11 @@ class Net_adminModel extends Model
             'where' => array('data_state' => array(EGT, 1)),
             'order' => 'data_state desc,create_at',
         ),
+        'toSelect' => array(
+            'where' => array('data_state' => array(EGT, 1)),
+            'order' => 'data_state desc,create_at',
+            'field' => array('id','nickname'),
+        ),        
     );
     protected $_auto = array(
         array('password', 'md5', 3, 'function'),

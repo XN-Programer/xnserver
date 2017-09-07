@@ -9,7 +9,7 @@ class AdminController extends CommonController
     public function _before_index()
     {
         if (I('session.AdminId') && I('session.AdminLevel') != 2) {
-            $this->redirect('Admin/Net/index');
+            $this->redirect('Admin/NetList/index');
         }
     }
     public function index()
