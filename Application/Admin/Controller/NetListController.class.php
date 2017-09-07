@@ -22,6 +22,11 @@ class NetListController extends CommonController
             }
             if (isset($this->where['p'])) {
                 unset($this->where['p']);   //url接受到的页码参数，从查询条件中去掉以免影响查询结果
+
+
+
+
+
             }
         }
         $count = $NetList->scope($this->scope)->where($this->where)->count();
@@ -48,7 +53,6 @@ class NetListController extends CommonController
             $data = I('post.');
             $NetList = D('Net_list');
             if (!$NetList->create($data)) {
-                // exit($Admin->getError());
                 $this->data['success'] = false;
             }
             else {
@@ -66,23 +70,15 @@ class NetListController extends CommonController
         // 禁用判断是否禁用用户
         if (I('post.')) {
             $data = I('post.');
-            $NetList = M('Net_list');
+            $NetList = D('Net_list');
             $NetList->find($data['id']);
             if (isset($NetList->id)) {
+                $u_id = $NetList->u_id;
                 if (!$NetList->create($data)) {
                     $this->data['success'] = false;
                 }
                 else {
-                    // 恶意报修的 禁用 对应用户（若存在）
-                    // 这里属于业务逻辑，应该放在模型里
-                    if ($NetList->data_state == 3 && $NetList->u_id != 0) {
-                        $User = M('User');
-                        $User->find($NewList->u_id);
-                        if (isset($User->id)) {
-                            $User->data_state = 3;
-                        }
-                        $User->save();
-                    }
+                    $NetList->changeUser($u_id, $NetList->id, $NetList->data_state);
                     $result = $NetList->save();
                     $this->data['data'] = $result;
                 }
@@ -100,10 +96,11 @@ class NetListController extends CommonController
     {
         if (I('post.')) {
             $data = I('post.');
-            $NetList = M('Net_list');
+            $NetList = D('Net_list');
             $NetList->find($data['id']);
             if (isset($NetList->id)) {
                 $NetList->data_state = 0;
+                $NetList->changeUser($NetList->u_id, $NetList->id, 0);
                 $result = $NetList->save();
                 $this->data['data'] = $result;
             }

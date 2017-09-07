@@ -1,7 +1,8 @@
 (function () {
     $(function () {
+        var action = "create";  //用action判断是新建还是修改
         // 显示当前搜索文字
-        if(wordJson != "[]"){
+        if (wordJson != "[]") {
             var wordObj = eval('(' + wordJson + ')')
             $("input[name='word']").val(wordObj);
         }
@@ -14,6 +15,7 @@
         }
         // 添加管理员
         $("#create-net-list").bind("click", function () {
+            action = "create";
             // 清空
             $("#aId").val("");
             $("#apartment").val("1");// 选中第一个option或不选
@@ -29,6 +31,7 @@
             // 修改故障单
             var row = $(value).parent().parent(".row");
             $(value).click(function () {
+                action = "update";
                 // 注意：此时row是jquery对象，有attr等方法，不是元素节点
                 // 传值
                 $("#nId").val(row.children(".nId").text());
@@ -105,13 +108,13 @@
                 },
                 success: function (response) {
                     if (response.success == "Success") {
-                        window.location.href = window.location.href;
+                        // window.location.href = window.location.href;
                     } else {
-                        alert("数据有误，请修改后重试！");
+                        // alert("数据有误，请修改后重试！");
                     }
                 },
                 error: function () {
-                    alert("网络原因，请稍后重试！");
+                    // alert("网络原因，请稍后重试！");
                 },
                 complete: function () {
                     del_post_flag = false;
@@ -121,11 +124,9 @@
         // 提交新建或修改
         var post_flag = false;
         $("#submit").bind("click", function (event) {
-            var url = create_net_list;
             var data_state = $("#data_state input[type='radio']:checked").attr("id");
-            data_state = data_state.split("data_state");
+            var data_state = data_state.split("data_state");
             var data = {
-                // id: $("#aId").val(),
                 apartment: $("#apartment").val(),
                 address: $("#address").val(),
                 username: $("#username").val(),
@@ -134,6 +135,12 @@
                 charge_id: $("#admin").val(),
                 desc: $("#desc").val(),
                 data_state: data_state[1],
+            }
+            if (action == "create") {
+                var url = create_net_list;
+            } else {
+                var url = update_net_list;
+                data.id = $("#nId").val();
             }
             // 判断是新增还是修改
             $.ajax({
