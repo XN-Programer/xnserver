@@ -20,13 +20,9 @@ class NetListController extends CommonController
             else {
                 $this->searchSelect();
             }
+            //url接受到的页码参数，从查询条件中去掉以免影响查询结果
             if (isset($this->where['p'])) {
-                unset($this->where['p']);   //url接受到的页码参数，从查询条件中去掉以免影响查询结果
-
-
-
-
-
+                unset($this->where['p']);
             }
         }
         $count = $NetList->scope($this->scope)->where($this->where)->count();

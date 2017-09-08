@@ -29,7 +29,6 @@ class UserModel extends RelationModel
             'class_name'    => 'Apartment',
             'foreign_key'   => 'apartment',
             'mapping_name'  => 'apartment', //对应到user的apartment字段
-            'as_fields' => 'name',
         ),
      );
 

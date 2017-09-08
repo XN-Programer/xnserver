@@ -45,7 +45,27 @@ class AdminController extends CommonController
     }
     public function update()
     {
-
+        if (I('post.')) {
+            $data = I('post.');
+            $Admin = M('Net_admin');
+            $Admin->find($data['id']);
+            if (isset($Admin->id)) {
+                if (!$Admin->create($data)) {
+                    $this->data['success'] = false;
+                }
+                else {
+                    $result = $Admin->save();
+                    $this->data['data'] = $result;
+                }
+            }
+            else {
+                $this->data['success'] = false;
+            }
+        }
+        else {
+            $this->data['success'] = false;
+        }
+        return $this->ajaxReturn($this->data);
     }
     public function delete()
     {

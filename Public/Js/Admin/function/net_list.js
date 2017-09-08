@@ -136,13 +136,13 @@
                 desc: $("#desc").val(),
                 data_state: data_state[1],
             }
+            // 判断是新增还是修改      
             if (action == "create") {
                 var url = create_net_list;
             } else {
                 var url = update_net_list;
                 data.id = $("#nId").val();
             }
-            // 判断是新增还是修改
             $.ajax({
                 type: "POST",
                 url: url,

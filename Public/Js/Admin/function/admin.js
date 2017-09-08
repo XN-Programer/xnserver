@@ -1,7 +1,9 @@
 (function () {
     $(function () {
+        var action = "create";
         // 添加管理员
         $("#create-admin").bind("click", function () {
+            action = "create";
             // 清空
             $("#aId").val("");
             $("#username").val("");
@@ -14,6 +16,7 @@
             // 修改管理员
             var row = $(value).parent().parent(".row");
             $(value).click(function () {
+                action = "update";
                 // 注意：此时row是jquery对象，有attr等方法，不是元素节点
                 // 传值
                 $("#aId").val(row.children(".aId").text());
@@ -64,14 +67,18 @@
         // 提交新建或修改
         var post_flag = false;
         $("#submit").bind("click", function (event) {
-            var url = create_admin;
             var data = {
-                id: $("#aId").val(),
                 username: $("#username").val(),
                 password: $("#password").val(),
                 nickname: $("#nickname").val(),
                 desc: $("#desc").val(),
                 data_state: $("#level").val(),
+            }
+            if (action == "create") {
+                var url = create_admin;
+            } else {
+                var url = update_admin;
+                data.id = $("#aId").val();
             }
             // 判断是新增还是修改
             $.ajax({
@@ -98,7 +105,6 @@
                     // 修改时 检查密码是否为默认，默认则不传
                 },
                 success: function (response) {
-                    console.log(response);
                     if (response.success == 'Success') {
                         window.location.href = window.location.href;
                     } else {
