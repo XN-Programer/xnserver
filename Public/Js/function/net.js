@@ -1,110 +1,119 @@
 (function () {
     $(function () {
+        User_state = 0;
+        var upd_user_url = user_create;
+        // 0 未绑定；1未报修；2已报修；3禁用
         getUser(get_user);
         getApartment(get_apartment);
-    })
+        // 新建或修改用户 
+        var user_post_flag = false;
+        $("#upd-user").click(function () {
+            var data = {
+                phone: $("#telphone").val(),
+                apartment: $("#hostel").val(),
+                address: $("#hostel_number").val(),
+            };
+            if (User_state != 0) {//已绑定
+                upd_user_url = user_update;
+                data.id = $("#uId").text();
+            }
+            $.ajax({
+                url: upd_user_url,
+                type: "POST",
+                data: data,
+                beforeSend: function () {
+                    if (!data.phone || !/1[3|4|5|7|8]\d{9}/.test(data.phone)) {
+                        $.toast("请输入正确手机号", "cancel", function (toast) { });
+                        return false;
+                    }
+                    if (data.apartment == '') {
+                        $.toast("请选择宿舍园区", "cancel", function (toast) { });
+                        return false;
+                    }
+                    if (data.address == '') {
+                        $.toast("请输入寝室地址", "cancel", function (toast) { });
+                        return false;
+                    }
+                    // 避免重复提交
+                    if (user_post_flag) {
+                        return false;
+                    }
+                    user_post_flag = true;
+                },
+                success: function (response) {
+                    // 判断是否插入成功
+                    if (response.success == 'Success') {
+                        $.toast("绑定成功", "success", function (toast) {
+                            window.location.href = window.location.href;
+                        });
+                    } else {
+                        $.toast("数据有误，请重试！", "cancel", function (toast) { });
+                    }
+                },
+                complete: function () {
+                    user_post_flag = false;
+                }
+            });
+        });
+        // 提交报修单
+        var net_post_flag = false;
+        $("#create-net").click(function () {
+            var data = {
+                u_id: $("#uId").text(),
+                server: $('#yunys').val(),
+                order_time: $('#yy_time').val(),
+                desc: $('#ProText').val(),
+            };
+            $.ajax({
+                url: net_list_create,
+                type: "POST",
+                data: data,
+                beforeSend: function () {
+                    if (data.server == '') {
+                        $.toptip('请选择运营商');
+                        return false;
+                    }
+                    if (data.order_time == '') {
+                        $.toptip('请选择时间段');
+                        return false;
+                    }
+                    if (User_state != "1") {//未报修状态才能报修
+                        $.toast("你已报修或被禁用或没绑定！", "cancel", function (toast) { });
+                        return false;
+                    }
+                    // 避免重复提交
+                    if (net_post_flag) {
+                        return false;
+                    }
+                    net_post_flag = true;
+                },
+                success: function (response) {
+                    // 判断是否插入成功
+                    if (response.success == 'Success') {
+                        $.toast("提交成功", "success", function (toast) {
+                            window.location.href = window.location.href;
+                        });
+                    } else {
+                        $.toast("数据有误，请重试！", "cancel", function (toast) { });
+                    }
+                },
+                complete: function () {
+                    net_post_flag = false;
+                }
+            });
+        });
+        //报修修改
+        $("#upd-net").click(function () {
+            if (User_state != "2") {
+                $.toast("你未报修或被禁用或没绑定！", "cancel", function (toast) { });
+                return false;
+            }
+            $.toast("请拨打****修改", "cancel", function (toast) { });
+        });
+    });
 })();
 // 最后写初始化函数
 // 标签页间跳转要处理，禁止跳转
-$(function () {
-    // 新建或修改用户 
-    var user_post_flag = false;
-    $("#upd-user").click(function () {
-        var telphone = $("#telphone").val();
-        var hostel = $("#hostel").val();
-        var hostel_number = $("#hostel_number").val();
-        $.ajax({
-            url: upd_user,
-            type: "POST",
-            data: {
-                phone: telphone,
-                apartment: hostel,
-                address: hostel_number,
-            },
-            beforeSend: function () {
-                if (!telphone || !/1[3|4|5|7|8]\d{9}/.test(telphone)) {
-                    $.toast("请输入正确手机号", "cancel", function (toast) { });
-                    return false;
-                }
-                if (hostel == '') {
-                    $.toast("请选择宿舍园区", "cancel", function (toast) { });
-                    return false;
-                }
-                if (hostel_number == '') {
-                    $.toast("请输入寝室地址", "cancel", function (toast) { });
-                    return false;
-                }
-                // 避免重复提交
-                if (user_post_flag) {
-                    return false;
-                }
-                user_post_flag = true;
-            },
-            success: function (response) {
-                // 判断是否插入成功
-                if (response.success == 'Success') {
-                    $.toast("绑定成功", "success", function (toast) {
-                        window.location.href = window.location.href;
-                    });
-                } else {
-                    $.toast("数据有误，请重试！", "cancel", function (toast) { });
-                }
-            },
-            complete: function () {
-                user_post_flag = false;
-            }
-        });
-    });
-    // 提交报修单
-    var net_post_flag = false;
-    $("#create-net").click(function () {
-        var yunys = $('#yunys').val();
-        var yy_time = $('#yy_time').val();
-        var ProText = $('#ProText').val();
-        $.ajax({
-            url: net_list_create,
-            type: "POST",
-            data: {
-                server: yunys,
-                order_time: yy_time,
-                desc: ProText,
-            },
-            beforeSend: function () {
-                if (yunys == '') {
-                    $.toptip('请选择运营商');
-                    return false;
-                }
-                if (yy_time == '') {
-                    $.toptip('请选择时间段');
-                    return false;
-                }
-                // 避免重复提交
-                if (net_post_flag) {
-                    return false;
-                }
-                net_post_flag = true;
-            },
-            success: function (response) {
-                // 判断是否插入成功
-                if (response.success == 'Success') {
-                    $.toast("提交成功", "success", function (toast) {
-                        window.location.href = window.location.href;
-                    });
-                } else {
-                    $.toast("数据有误，请重试！", "cancel", function (toast) { });
-                }
-            },
-            complete: function () {
-                net_post_flag = false;
-            }
-        });
-    });
-    //报修修改
-    $("#upd-net").click(function (){
-        $.toast("请拨打****修改", "cancel", function (toast) { });
-    });
-});
-
 
 // 已报修获取报修单数据
 function getNetList(url) {
@@ -112,7 +121,7 @@ function getNetList(url) {
         url: url,
         type: "GET",
         success: function (response) {
-            if(response.success == 'Success'){
+            if (response.success == 'Success') {
                 net = response.data;
                 $("#read_hostel").html(net.apartment);
                 $("#read_phone").html(net.phone);
@@ -137,20 +146,24 @@ function getUser(url) {
             $("#name").html(user.name);
             $("#stu_code").html(user.stu_code);
             // 判断是否已绑定信息
-            if (response.success == 'Success') {
+            if (response.success == 'Success') {//已绑定
+                User_state = user.data_state;//!!!!
                 // 个人资料相关
-                upd_user = user_update;
                 $("#telphone").val(user.phone);
                 $("#hostel").val(user.apartment);
                 $("#hostel_number").val(user.address);
+                $("#uId").text(user.id);
                 //报修相关
                 if (user.data_state == 2) {//已报修：
                     getNetList(get_net_list);
                     skip("tab2");
                 }
                 //被禁用 3
-            } else {
-                upd_user = user_create;
+                if (user.data_state == 3) {
+                    alert("你已被禁用！");
+                    // 跳转到一个新页面，写你被禁用了
+                }
+            } else {//未绑定
                 $.toast("请绑定个人信息", "cancel", function (toast) { });
                 skip("tab3");
             }
@@ -188,9 +201,9 @@ function getApartment(url) {
 
 // 跳转函数
 function skip(tab) {
-    if(tab == "tab2"){
-        $("a[href='#tab2']").css("display","block");
-        $("a[href='#tab1']").css("display","none");
+    if (tab == "tab2") {
+        $("a[href='#tab2']").css("display", "block");
+        $("a[href='#tab1']").css("display", "none");
     }
     $(".weui-bar__item--on").removeClass("weui-bar__item--on");
     $(".weui-tab__bd-item--active").removeClass("weui-tab__bd-item--active");

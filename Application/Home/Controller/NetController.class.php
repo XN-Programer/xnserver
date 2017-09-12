@@ -18,15 +18,12 @@ class NetController extends CommonController
     // APi - 获取当前登录用户数据
     public function Get_User()
     {
-        $model = M('User');
+        $model = D('User');
         $stu_code = I('session.UserId');
         $where['stu_code'] = $stu_code;
-        $where['data_state'] = array(EGT, 1);
-        $User = $model->where($where)->find();
+        $User = $model->scope('common')->where($where)->find();
         if (isset($User)) {
-            unset($User['update_at'], $User['create_at']);
-            $Apartment = D('Apartment');
-            $User['apartment'] = $Apartment->exchange($User['apartment']);
+            $User['apartment'] = D('Apartment')->exchange($User['apartment']);
             $this->data['data'] = $User;
         }
         else {
@@ -46,7 +43,7 @@ class NetController extends CommonController
         if (isset($user_data)) {// 该用户是否已报修
             $Apartment = D('Apartment');
             $user_data['apartment'] = $Apartment->exchange($user_data['apartment']);
-            $Net_list = D('Net_list');            
+            $Net_list = D('Net_list');
             $where_n['u_id'] = $user_data['id'];
             $net_data = $Net_list->scope('toUser')->where($where_n)->find();
             if (isset($net_data)) {// 是否查到故障单
@@ -73,68 +70,112 @@ class NetController extends CommonController
     // API - 新增用户
     public function User_Create()
     {
+        if ($data = I('post.')) {
         // 判断学号是否存在,暂时不做
-        $User = D('User');
-        $data = I('post.');
-        $Apartment = D('Apartment');
-        $data['apartment'] = $Apartment->exchange($data['apartment']);
-        $data['name'] = I('session.UserName');
-        $data['stu_code'] = I('session.UserId');
-        if (!$User->create($data)) {
-            // exit($User->getError());
-            $this->data['success'] = false;
+            $User = D('User');
+            $data['apartment'] = D('Apartment')->exchange($data['apartment']);
+            $data['name'] = I('session.UserName');
+            $data['stu_code'] = I('session.UserId');
+            if (!$User->create($data)) {
+                $this->data['success'] = false;
+            }
+            else {
+            // 如何判断是否插入成功
+                $result = $User->add();
+                $this->data['data'] = $result;
+            }
         }
         else {
-            // 如何判断是否插入成功
-            $result = $User->add();
-            $this->data['data'] = $result;
+            $this->data['success'] = false;
         }
         $this->ajaxReturn($this->data);
     }
     // API - 修改用户
     public function User_Update()
     {
-        $User = D('User');
-        $data = I('post.');
-        $Apartment = D('Apartment');
-        $data['apartment'] = $Apartment->exchange($data['apartment']);
-        $data['name'] = I('session.UserName');
-        $where['stu_code'] = I('session.UserId');
-        if (!$User->create($data)) {
-            $this->data['success'] = false;
-        }
-        else {
-            $result = $User->where($where)->save();
-            if (gettype($result) != 'integer') {
-                $this->data['success'] = false;
+        // 用户数据修改应该 用传过来的uid而不是当前session，因为可能会被管理员修改，当然通过这里修改只有用户本人用..
+        if ($data = I('post.')) {
+            $User = D('User');
+            $data['apartment'] = D('Apartment')->exchange($data['apartment']);
+            $User->find($data['id']);
+            if (isset($User->id)) {
+                if (!$User->create($data)) {
+                    $this->data['success'] = false;
+                }
+                else {
+                    $result = $User->save();
+                    $this->data['data'] = $result;
+                }
             }
             else {
-                $this->data['data'] = $result;
+                $this->data['success'] = false;
             }
         }
+        else {
+            $this->data['success'] = false;
+        }
         $this->ajaxReturn($this->data);
-
     }    
     // API - 新增网络故障单
     public function NetList_Create()
     {
-        $Net_list = D('Net_list');
-        $data = I('post.');
-        $User = M('User');
-        $User->getByStu_code(I('session.UserId'));
-        if (isset($User->id) && $User->data_state == 1) {//true则user表有数据
-            $data['u_id'] = $User->id;
-            $data['apartment'] = $User->apartment;
-            $data['address'] = $User->address;
-            if (!$Net_list->create($data)) {
-                $this->data['success'] = false;
+        if ($data = I('post.')) {
+            $NetList = D('Net_list');
+            $User = M('User');
+            $User->find($data['u_id']);
+            if (isset($User->id) && $User->data_state == 1) {//true则user表有数据
+                $data['username'] = $User->name;
+                $data['phone'] = $User->phone;
+                $data['apartment'] = $User->apartment;
+                $data['address'] = $User->address;
+                if (!$NetList->create($data)) {
+                    $this->data['success'] = false;
+                }
+                else {
+                    $result = $NetList->add();
+                    $this->data['data'] = $result;
+                // 用户 状态 变为 已报修
+                    $User->data_state = 2;
+                    $User->save();
+                }
             }
             else {
-                $result = $Net_list->add();
-                $this->data['data'] = $result;
+                $this->data['success'] = false;
+            }
+        }
+        else {
+            $this->data['success'] = false;
+        }
+        $this->ajaxReturn($this->data);
+    }
+    // API - 修改网络故障单    
+    public function NetList_Update()
+    {
+        // 能看到故障单说明 人 d 2 ； 单 d 1
+        // 改故障单数据
+        // 改用户数据
+        if ($data = I('post.')) {
+            $NetList = D('Net_list');
+            $User = M('User');
+            $User->find($data['u_id']);
+            if (isset($User->id) && $User->data_state == 1) {//true则user表有数据
+                $data['username'] = $User->name;
+                $data['phone'] = $User->phone;
+                $data['apartment'] = $User->apartment;
+                $data['address'] = $User->address;
+                if (!$NetList->create($data)) {
+                    $this->data['success'] = false;
+                }
+                else {
+                    $result = $NetList->add();
+                    $this->data['data'] = $result;
                 // 用户 状态 变为 已报修
-                $User->data_state = 2;
-                $User->save();
+                    $User->data_state = 2;
+                    $User->save();
+                }
+            }
+            else {
+                $this->data['success'] = false;
             }
         }
         else {

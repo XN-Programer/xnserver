@@ -73,7 +73,7 @@
                 nickname: $("#nickname").val(),
                 desc: $("#desc").val(),
                 data_state: $("#level").val(),
-            }
+            };
             if (action == "create") {
                 var url = create_admin;
             } else {

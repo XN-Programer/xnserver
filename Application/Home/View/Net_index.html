@@ -14,8 +14,16 @@
 	<link rel="stylesheet" href="__PUBLIC__/Css/jquery-weui.min.css" />
 	<link rel="stylesheet" href="__PUBLIC__/Css/demos.css" />
 
-	<!-- 引入api文件 -->
-	<include file="Api/All" />
+<!-- API汇总 -->
+<script type="text/javascript">
+    var get_user = '{:U("Home/Net/Get_User", '', '')}';
+    var get_apartment = '{:U("Home/Net/Get_Apartment", '', '')}';
+    var get_net_list = '{:U("Home/Net/Get_NetList", '', '')}';
+
+    var user_create = '{:U("Home/Net/User_Create", '', '')}';
+    var user_update = '{:U("Home/Net/User_Update", '', '')}';
+    var net_list_create = '{:U("Home/Net/NetList_Create", '', '')}';
+</script>
 
 </head>
 
@@ -185,7 +193,7 @@
 				<div class="tab1_title">
 					<p>用户信息列表</p>
 				</div>
-
+				<div id="uId" style="display:none"></div>
 				<div class="weui-cells weui-cells_form">
 					<div class="weui-cell">
 						个人信息
@@ -321,10 +329,6 @@
 
 
 	</div>
-
-
-
-
 
 	<script type="text/javascript" src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/Js/fastclick.js"></script>
