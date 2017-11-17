@@ -14,7 +14,7 @@ class Net_listModel extends RelationModel
     );
     protected $_scope = array(
         'common' => array(
-            'where' => array('data_state' => array(BETWEEN, '1,3')),
+            'where' => array('data_state' => array(BETWEEN, '1,2')),
             'order' => 'data_state, create_at desc',
         ),
         'searchWord' => array(

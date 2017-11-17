@@ -123,20 +123,23 @@ class NetController extends CommonController
             $NetList = D('Net_list');
             $User = M('User');
             $User->find($data['u_id']);
-            if (isset($User->id) && $User->data_state == 1) {//true则user表有数据
-                $data['username'] = $User->name;
-                $data['phone'] = $User->phone;
-                $data['apartment'] = $User->apartment;
-                $data['address'] = $User->address;
-                if (!$NetList->create($data)) {
-                    $this->data['success'] = false;
-                }
-                else {
-                    $result = $NetList->add();
-                    $this->data['data'] = $result;
-                // 用户 状态 变为 已报修
-                    $User->data_state = 2;
-                    $User->save();
+            if (isset($User->id)) {//true则user表有数据
+                $oldNetList = D('Net_list')->scope('common')->where('id=' . $User->id)->find();
+                if (!isset($oldNetList->id)) {
+                    $data['username'] = $User->name;
+                    $data['phone'] = $User->phone;
+                    $data['apartment'] = $User->apartment;
+                    $data['address'] = $User->address;
+                    if (!$NetList->create($data)) {
+                        $this->data['success'] = false;
+                    }
+                    else {
+                        $result = $NetList->add();
+                        $this->data['data'] = $result;
+                    // 用户 状态 变为 已报修
+                        $User->data_state = 2;
+                        $User->save();
+                    }
                 }
             }
             else {
